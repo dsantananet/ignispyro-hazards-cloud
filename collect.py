@@ -1,5 +1,5 @@
 """Free, bounded collection of licensed Lisbon road restrictions. No credentials."""
-import csv, hashlib, io, json, pathlib, urllib.request
+import csv, hashlib, io, json, pathlib, urllib.request, urllib.error
 from datetime import datetime, timezone
 
 URL = 'https://coiapp2.cm-lisboa.pt/file/datahub/950792bf-6f72-4bb2-b725-652c1619175a'
@@ -90,11 +90,21 @@ def normalize(raw, now=None):
 
 def main():
     req=urllib.request.Request(URL,headers={'User-Agent':'IgnisPyroHazards/1.0 open-data quality study'})
-    with urllib.request.build_opener(NoRedirect).open(req,timeout=25) as response:
-        raw=response.read(5000001)
+    out=pathlib.Path('site/data');out.mkdir(parents=True,exist_ok=True)
+    try:
+        with urllib.request.build_opener(NoRedirect).open(req,timeout=25) as response:
+            raw=response.read(5000001)
+    except (urllib.error.URLError,TimeoutError,OSError) as exc:
+        # Keep original snapshot date. A cloud network failure is not a new observation.
+        status={'attempted_at':datetime.now(timezone.utc).isoformat(),
+                'status':'retrieval_failed','error_type':type(exc).__name__,
+                'snapshot_preserved':(out/'roads.geojson').exists()}
+        (out/'collection-status.json').write_text(json.dumps(status,indent=2),encoding='utf-8')
+        if not status['snapshot_preserved']:raise
+        print(json.dumps(status));return
     if len(raw)>5000000: raise ValueError('response size')
     data,rows=normalize(raw)
-    out=pathlib.Path('site/data');out.mkdir(parents=True,exist_ok=True)
+    (out/'collection-status.json').write_text(json.dumps({'attempted_at':data['metadata']['generated_at'],'status':'retrieved','snapshot_preserved':False}),encoding='utf-8')
     (out/'roads.geojson').write_text(json.dumps(data,ensure_ascii=False,separators=(',',':')),encoding='utf-8')
     (out/'quality.json').write_text(json.dumps(data['metadata'],ensure_ascii=False,indent=2),encoding='utf-8')
     with (out/'quality.csv').open('w',encoding='utf-8',newline='') as f:

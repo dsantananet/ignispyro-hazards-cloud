@@ -7,6 +7,6 @@ Open `site/article.html` and `site/reports/index.html`.
 
 Hourly scheduled collection is a refresh attempt, not a real-time service guarantee. GitHub may delay scheduled runs or disable inactive schedules. A failed collection does not publish empty normal-state data. No source here confirms national road closures. Lisbon data remain historical/unverified until their original update cadence is established.
 
-Source attribution: Câmara Municipal de Lisboa / Lisboa Aberta, CC BY 4.0, links and SHA-256 in `site/data/quality.json`. Collector transformations: geometry validation, deduplication, temporal classification. Original data licence applies separately from code.
+Source attribution: CÃ¢mara Municipal de Lisboa / Lisboa Aberta, CC BY 4.0, links and SHA-256 in `site/data/quality.json`. Collector transformations: geometry validation, deduplication, temporal classification. Original data licence applies separately from code.
 
-Waze/Google browser scraping is not implemented. Waze official partner access and OpenWeb Ninja require source-use rights. OpenWeb Ninja's advertised free 100 calls/month is insufficient for national five-minute refresh. No commercial API is enabled.
+Waze/Google browser scraping is not implemented. Waze official partner access and OpenWeb Ninja require source-use rights. OpenWeb Ninja's advertised free 100 calls/month (account UI actually offered 50) is insufficient for national five-minute refresh. OpenWeb Ninja Basic was activated at $0 with a hard limit; API testing was blocked by endpoint protection and was not bypassed. No paid API is enabled.

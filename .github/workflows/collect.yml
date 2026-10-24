@@ -1,0 +1,35 @@
+name: Free road data and R report
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 * * * *'
+permissions:
+  contents: write
+concurrency:
+  group: free-road-data
+  cancel-in-progress: false
+jobs:
+  collect:
+    if: github.event.repository.private == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate collector
+        run: python -m unittest -v
+      - name: Collect licensed source
+        run: python collect.py
+      - name: Install base R
+        run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends r-base-core
+      - name: Produce report
+        run: Rscript analyse.R
+      - name: Publish current snapshot in Git
+        run: |
+          git config user.name 'ignispyro-data-bot'
+          git config user.email 'actions@users.noreply.github.com'
+          git add site
+          git diff --cached --quiet || git commit -m 'Update licensed roads snapshot and R quality report'
+          git push origin HEAD:main

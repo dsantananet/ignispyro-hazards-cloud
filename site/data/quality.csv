@@ -1,0 +1,855 @@
+id,created_at,valid_until,temporal_state,restriction
+EMEL.condicionamentoTransito.COND-2024-1403-PA-17,2024-10-14T10:11:57.000Z,2024-11-14T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1419-PA-17,2024-10-08T09:42:35.000Z,2024-11-15T23:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-14-1,2024-01-03T15:48:22.000Z,2024-12-15T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5918-1,2024-10-01T15:08:12.000Z,2024-10-31T06:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-4914-PA-5,2024-10-14T10:19:28.000Z,2024-11-05T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5646-1,2024-09-19T09:11:05.000Z,2024-10-26T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-3960-2,2024-06-27T08:51:25.000Z,2024-10-31T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5644-1,2024-09-19T09:04:32.000Z,2024-10-26T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4684-1,2024-07-29T17:30:51.000Z,2025-02-07T20:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5801-1,2024-09-25T23:58:06.000Z,2024-10-22T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5786-1,2024-09-25T10:31:07.000Z,2024-10-21T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-7258-P-5,2024-09-25T10:27:27.000Z,2024-12-31T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-4979-PA-29,2024-10-03T08:44:34.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4745-P-8,2024-09-30T14:06:21.000Z,2024-10-19T05:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5973-A-1,2024-10-03T22:26:41.000Z,2024-10-30T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5357-PA-28,2024-09-25T09:27:42.000Z,2024-11-06T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1042-1,2024-02-16T23:41:25.000Z,2025-03-04T18:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-5849-1,2024-09-27T13:19:38.000Z,2024-10-25T16:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-2128-PA-7,2024-10-15T09:48:46.000Z,2024-11-18T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5867-A-1,2024-09-27T22:08:37.000Z,2024-10-25T16:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-7235-PA-8,2024-07-16T14:06:06.000Z,2024-12-20T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1049-PA-20,2024-10-04T11:00:10.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5020-2,2024-10-01T15:22:49.000Z,2024-11-01T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6050-1,2024-10-08T12:39:13.000Z,2024-11-15T20:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-1669-PA-69,2024-10-15T22:32:35.000Z,2024-11-27T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-2032-PA-39,2024-10-11T09:44:19.000Z,2024-11-15T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5104-PA-5,2024-10-10T08:35:50.000Z,2024-11-13T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2883-PA-11,2024-09-20T00:35:10.000Z,2024-10-23T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5724-2,2024-10-03T16:21:56.000Z,2024-10-19T16:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-1479-PA-36,2024-10-14T10:36:27.000Z,2024-11-04T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4405-P-4,2024-10-09T13:03:32.000Z,2024-10-30T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5554-1,2024-09-17T10:34:15.000Z,2024-11-08T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5172-PA-39,2024-10-03T09:39:12.000Z,2024-12-18T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5379-1,2024-09-11T09:48:09.000Z,2024-11-15T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5705-A-1,2024-09-22T18:31:59.000Z,2024-10-18T15:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-2515-PA-34,2024-10-14T10:42:44.000Z,2024-11-04T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-299-1,2024-01-16T11:54:42.000Z,2024-12-31T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5359-2,2024-09-10T14:34:25.000Z,2024-11-08T06:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5687-1,2024-09-20T13:13:41.000Z,2024-10-18T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6153-1,2024-10-14T11:05:40.000Z,2024-10-26T17:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-4644-PA-5,2024-10-01T14:52:45.000Z,2024-10-22T16:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-1365-PA-39,2024-09-22T00:14:56.000Z,2024-10-31T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-3576-PA-5,2024-09-23T11:25:55.000Z,2024-12-31T12:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2881-PA-11,2024-09-22T00:02:54.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5499-PA-2,2024-10-04T15:22:02.000Z,2024-10-25T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-6703-PA-6,2024-07-08T13:04:30.000Z,2024-11-30T23:59:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-2234-PA-14,2024-10-02T09:26:28.000Z,2024-11-11T16:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2023-6246-PA-33,2024-09-30T14:02:32.000Z,2024-11-12T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5090-PA-3,2024-10-04T15:26:05.000Z,2024-11-05T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-877-PA-17,2024-10-08T14:22:26.000Z,2024-11-14T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5221-2,2024-09-18T15:03:28.000Z,2024-10-29T06:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-26,2024-09-27T08:45:38.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6059-1,2024-10-08T14:41:55.000Z,2024-10-18T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4903-PA-3,2024-09-27T15:23:36.000Z,2024-10-18T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4644-PA-6,2024-10-08T15:33:10.000Z,2024-11-06T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-4626-PA-6,2024-09-26T14:13:39.000Z,2024-10-30T16:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2022-6560-3,2023-05-29T17:03:20.000Z,2024-10-20T18:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-997-PA-18,2024-10-14T10:04:03.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-4261-PA-31,2024-10-02T08:59:34.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-6609-PA-49,2024-10-07T13:27:57.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5983-1,2024-10-04T10:01:04.000Z,2024-10-18T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-4517-PA-33,2024-10-02T09:06:39.000Z,2024-11-13T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-3308-34,2024-09-23T08:46:49.000Z,2025-12-29T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4029-3,2024-06-29T18:35:14.000Z,2024-12-10T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-6056-PA-23,2024-09-24T15:14:01.000Z,2024-10-21T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-186-6,2024-01-16T13:26:42.000Z,2024-12-31T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5817-1,2024-09-26T11:02:45.000Z,2024-10-31T20:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-2579-PA-11,2024-10-14T09:18:51.000Z,2024-11-04T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5054-PA-4,2024-10-14T09:32:15.000Z,2024-10-31T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-6009-PA-23,2024-09-27T15:30:24.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6039-1,2024-10-07T22:15:42.000Z,2024-11-13T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5631-1,2024-09-18T14:06:53.000Z,2024-11-08T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4029-6,2024-06-29T22:23:25.000Z,2024-12-27T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2084-PA-13,2024-10-16T09:19:11.000Z,2024-11-07T07:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2021-5310-PA-80,2024-10-08T10:37:21.000Z,2024-10-29T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-1413-PA-39,2024-10-14T23:34:23.000Z,2024-11-25T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6157-1,2024-10-14T13:18:17.000Z,2024-10-19T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-6067-1,2024-10-08T22:19:35.000Z,2024-12-31T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5868-1,2024-09-27T22:17:06.000Z,2024-10-18T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-186-8,2024-01-16T13:35:37.000Z,2024-12-31T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-1469-P-16,2024-09-20T00:44:11.000Z,2024-10-25T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6020-1,2024-10-07T10:34:08.000Z,2024-10-31T17:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2022-3308-36,2024-09-23T09:38:02.000Z,2025-12-29T23:59:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-6296-P-27,2024-10-08T10:48:50.000Z,2024-11-19T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5260-2,2024-09-30T09:10:46.000Z,2024-10-24T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-2063-PA-29,2024-09-24T10:12:53.000Z,2024-10-17T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-3880-PA-34,2024-10-08T10:56:01.000Z,2024-11-15T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5359-1,2024-09-10T14:09:51.000Z,2024-11-04T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6074-1,2024-10-09T01:38:07.000Z,2024-10-19T14:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2022-6088-PA-52,2024-10-01T21:52:43.000Z,2024-11-08T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6099-6,2024-10-10T09:29:56.000Z,2024-10-31T22:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6042-3,2024-10-08T09:33:09.000Z,2024-10-25T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6099-2,2024-10-10T09:21:30.000Z,2024-10-23T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3242-PA-12,2024-10-16T10:19:44.000Z,2024-11-25T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-5354-PA-26,2024-10-14T14:03:01.000Z,2024-11-22T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2357-PA-11,2024-10-09T09:38:00.000Z,2024-10-29T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4502-PA-2,2024-10-01T12:49:00.000Z,2024-10-31T06:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4929-PA-3,2024-09-17T13:03:20.000Z,2024-10-23T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5983-2,2024-10-04T10:02:42.000Z,2024-10-25T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-7100-1,2023-11-29T15:51:12.000Z,2024-11-29T23:59:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2023-5172-PA-35,2024-10-03T09:09:22.000Z,2024-12-18T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-872-PA-3,2024-06-03T13:31:31.000Z,2024-11-27T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2234-PA-13,2024-10-02T09:19:00.000Z,2024-10-25T15:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-5467-1,2024-09-13T12:49:42.000Z,2024-10-22T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-790-P-6,2024-08-16T15:16:33.000Z,2025-03-31T22:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-5305-PA-25,2024-10-15T14:15:02.000Z,2024-11-06T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5089-1,2024-08-21T14:26:33.000Z,2025-02-06T23:59:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-1820-PA-14,2024-09-13T16:12:23.000Z,2024-10-23T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5899-A-1,2024-10-01T00:30:29.000Z,2024-10-18T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1419-PA-15,2024-09-16T10:47:50.000Z,2024-10-18T22:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5818-1,2024-09-26T11:13:16.000Z,2024-10-18T16:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5861-1,2024-09-27T14:33:55.000Z,2024-10-25T17:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-5615-1,2024-09-18T10:51:41.000Z,2024-11-18T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6052-1,2024-10-08T13:14:44.000Z,2024-10-21T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4295-PA-9,2024-10-16T10:40:01.000Z,2024-11-27T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-4367-PA-32,2024-10-15T13:51:18.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6198-3,2024-10-16T09:09:58.000Z,2024-11-02T05:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6047-1,2024-10-08T11:19:45.000Z,2024-10-17T19:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-4937-PA-3,2024-09-26T11:11:58.000Z,2024-10-17T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-1402-PA-42,2024-09-19T15:54:43.000Z,2024-10-29T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5977-1,2024-10-04T01:54:57.000Z,2024-11-22T17:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4256-PA-6,2024-09-25T11:07:08.000Z,2024-10-18T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5877-1,2024-09-30T11:06:45.000Z,2024-10-31T17:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5627-PA-2,2024-10-03T14:02:51.000Z,2024-10-19T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-7032-A-1,2023-11-27T10:29:55.000Z,2024-11-27T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4295-PA-8,2024-09-30T21:44:57.000Z,2024-11-13T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-3577-1,2024-06-06T13:30:27.000Z,2025-01-30T23:59:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2023-6789-PA-13,2024-10-07T15:41:41.000Z,2024-10-28T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-6560-PA-9,2024-09-27T11:12:22.000Z,2025-05-26T18:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-5211-PA-4,2024-10-09T09:47:25.000Z,2024-11-05T17:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-5982-2,2024-10-04T09:59:08.000Z,2024-10-18T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-6514-PA-51,2024-10-08T00:42:23.000Z,2024-10-30T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-997-PA-17,2024-10-03T14:28:20.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4604-PA-2,2024-09-30T13:25:31.000Z,2024-12-12T18:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-5865-1,2024-09-27T15:11:27.000Z,2024-10-25T18:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-3701-1,2024-06-10T16:03:00.000Z,2024-12-31T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5104-PA-4,2024-10-03T11:04:29.000Z,2024-10-29T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4397-P-6,2024-10-04T14:19:09.000Z,2024-10-25T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5908-1,2024-10-01T12:42:24.000Z,2024-10-19T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-7304-2,2024-01-18T10:26:14.000Z,2025-05-29T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5423-PA-3,2023-12-21T11:43:11.000Z,2024-12-31T20:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5788-1,2024-09-25T10:45:37.000Z,2024-10-21T16:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5494-PA-3,2024-10-03T15:59:31.000Z,2024-11-07T16:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-6047-P-2,2024-10-16T10:03:43.000Z,2024-10-19T19:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-6002-PA-28,2024-10-14T15:19:55.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-1615-1,2024-03-12T01:11:01.000Z,2024-11-30T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4599-28,2024-09-25T14:18:57.000Z,2024-10-18T22:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6160-1,2024-10-14T13:50:43.000Z,2024-11-15T23:59:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-790-7,2024-09-11T14:06:07.000Z,2024-12-31T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-4704-7,2024-07-30T11:30:46.000Z,2024-10-30T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3159-PA-9,2024-10-14T10:55:29.000Z,2024-11-04T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5851-1,2024-09-27T13:28:38.000Z,2024-11-09T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2143-2,2024-04-12T13:54:04.000Z,2024-11-07T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5252-PA-28,2024-10-01T15:08:43.000Z,2024-10-24T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6002-1,2024-10-04T15:18:45.000Z,2024-10-29T17:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-3310-PA-10,2024-09-19T01:45:56.000Z,2024-10-17T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5488-1,2024-09-16T10:10:35.000Z,2024-10-31T08:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4384-PA-3,2024-09-26T14:04:26.000Z,2024-11-03T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5798-1,2024-09-25T23:13:16.000Z,2024-10-21T22:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-5054-PA-3,2024-10-01T15:03:54.000Z,2024-10-22T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5600-PA-3,2024-10-15T23:09:09.000Z,2024-11-11T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-4029-2,2024-06-29T18:24:35.000Z,2024-12-04T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2694-PA-11,2024-10-03T10:08:35.000Z,2024-10-23T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-7258-PA-4,2024-09-25T10:19:47.000Z,2024-12-31T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4937-PA-4,2024-10-08T15:37:31.000Z,2024-10-31T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6099-4,2024-10-10T09:25:14.000Z,2024-10-29T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-622-PA-13,2024-10-04T13:16:08.000Z,2024-10-25T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-472-PA-20,2024-09-26T10:37:49.000Z,2024-11-08T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6114-2,2024-10-10T14:26:14.000Z,2024-10-19T15:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5928-3,2024-10-02T10:23:11.000Z,2024-10-21T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5904-1,2024-10-01T09:53:34.000Z,2024-12-31T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-5031-PA-31,2024-10-11T10:00:31.000Z,2024-11-21T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-186-7,2024-01-16T13:31:16.000Z,2024-12-31T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5378-1,2024-09-11T09:42:30.000Z,2024-10-18T19:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5869-1,2024-09-27T23:37:41.000Z,2024-10-31T17:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-3406-PA-31,2024-09-30T09:15:22.000Z,2024-10-18T22:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6147-A-2,2024-10-14T09:26:34.000Z,2024-10-30T20:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5791-1,2024-09-25T11:19:58.000Z,2024-11-04T18:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-2046-PA-7,2024-10-15T09:55:10.000Z,2024-10-31T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5806-1,2024-09-26T08:58:58.000Z,2024-10-23T22:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5143-PA-2,2024-10-16T11:07:15.000Z,2024-11-29T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4292-PA-7,2024-09-20T00:13:24.000Z,2024-10-28T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5357-30,2024-09-30T12:32:26.000Z,2024-10-19T11:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-1697-3,2023-04-28T08:51:28.000Z,2025-08-25T22:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-3310-PA-12,2024-10-08T14:26:07.000Z,2024-11-14T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5341-1,2024-09-09T15:25:19.000Z,2024-10-25T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6296-25,2024-09-20T09:09:52.000Z,2024-10-21T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6080-5,2024-10-09T10:59:18.000Z,2024-10-17T03:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2181-PA-15,2024-10-15T14:54:54.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6083-1,2024-10-09T11:00:18.000Z,2024-12-31T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-4457-1,2023-07-21T00:42:13.000Z,2024-11-10T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4684-3,2024-10-03T11:02:34.000Z,2025-02-08T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-7390-PA-21,2024-10-15T07:47:50.000Z,2024-11-05T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6186-PA-25,2024-09-18T13:37:38.000Z,2024-10-17T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5727-3,2024-09-27T10:51:23.000Z,2024-10-18T12:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-2681-PA-12,2024-10-15T13:04:22.000Z,2024-11-07T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-6042-1,2024-10-08T09:09:47.000Z,2024-10-23T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5210-P-5,2024-10-01T10:51:27.000Z,2024-10-18T19:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1510-PA-15,2024-10-07T15:49:57.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5589-PA-18,2024-10-04T13:36:05.000Z,2024-10-25T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5675-1,2024-09-20T10:11:44.000Z,2024-10-17T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5994-PA-27,2024-10-16T09:54:06.000Z,2024-11-19T16:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2023-3190-PA-37,2024-10-01T21:27:04.000Z,2024-11-13T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5984-2,2024-10-04T10:08:40.000Z,2024-10-25T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-4823-PA-54,2024-09-17T13:25:30.000Z,2024-10-18T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5292-PA-2,2024-10-14T10:24:45.000Z,2024-11-10T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6246-PA-34,2024-10-15T10:06:10.000Z,2024-11-26T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-3799-PA-31,2024-10-07T14:01:37.000Z,2024-10-30T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5687-PA-2,2024-10-09T23:19:51.000Z,2024-10-31T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5172-PA-40,2024-10-03T09:43:47.000Z,2024-12-18T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5903-1,2024-10-01T09:12:44.000Z,2024-10-24T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-6246-PA-32,2024-09-19T13:27:14.000Z,2024-10-28T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5598-PA-3,2024-10-07T09:07:30.000Z,2024-11-14T20:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-2883-PA-12,2024-10-01T08:49:19.000Z,2024-11-07T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-2032-PA-37,2024-09-19T10:57:23.000Z,2024-10-18T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5672-1,2024-09-19T22:59:47.000Z,2024-10-24T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4708-P-5,2024-10-01T08:44:09.000Z,2024-10-25T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-3961-4,2024-09-18T14:08:22.000Z,2024-12-31T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-6124-3,2024-10-11T11:11:16.000Z,2024-11-01T22:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5172-PA-36,2024-10-03T09:13:47.000Z,2024-12-18T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5914-PA-4,2024-06-24T12:52:37.000Z,2025-01-06T23:59:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2022-1669-PA-68,2024-10-07T09:17:02.000Z,2024-11-13T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6176-PA-26,2024-09-26T09:39:15.000Z,2024-10-30T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-3091-PA-13,2024-10-10T22:27:19.000Z,2024-11-20T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-4979-PA-28,2024-09-22T01:31:49.000Z,2024-10-17T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5225-1,2024-09-03T11:22:24.000Z,2024-10-28T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5950-1,2024-10-03T00:35:12.000Z,2024-10-31T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5789-1,2024-09-25T11:03:49.000Z,2025-01-31T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-877-PA-16,2024-10-04T10:48:26.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5209-1,2024-09-02T14:45:07.000Z,2024-10-19T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5228-1,2024-09-03T12:56:23.000Z,2024-10-25T17:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2023-3594-PA-2,2023-12-19T14:49:32.000Z,2024-12-31T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6481-PA-15,2024-09-27T10:05:20.000Z,2024-10-18T15:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-36,2024-09-27T09:28:07.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3462-30,2024-10-09T14:57:43.000Z,2024-10-25T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-3308-35,2024-09-23T08:55:57.000Z,2025-12-29T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-1100-PA-67,2024-10-11T11:06:56.000Z,2024-11-08T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-37,2024-09-27T09:33:50.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-424-1,2024-01-22T10:03:04.000Z,2026-01-08T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5799-1,2024-09-25T23:26:36.000Z,2024-10-21T22:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-38,2024-09-27T09:38:54.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-2700-2,2022-06-01T15:09:24.000Z,2025-07-31T22:59:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-6762-PA-6,2024-09-16T21:19:50.000Z,2025-03-04T20:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5738-1,2024-09-23T14:25:36.000Z,2024-10-31T15:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2505-PA-13,2024-10-01T21:37:57.000Z,2024-11-11T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5931-1,2024-10-02T10:16:39.000Z,2024-10-21T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-23,2024-09-26T10:11:44.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5960-1,2024-10-03T13:43:04.000Z,2024-10-30T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-3029-PA-11,2024-09-20T16:02:54.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4218-PA-7,2024-10-03T13:08:47.000Z,2024-10-24T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5755-1,2024-09-24T11:19:21.000Z,2024-11-08T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3242-PA-11,2024-10-02T09:31:11.000Z,2024-11-11T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5836-1,2024-09-26T21:41:49.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3159-PA-8,2024-09-30T10:19:38.000Z,2024-10-18T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5274-1,2024-09-05T09:31:09.000Z,2024-12-31T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-6762-PA-5,2024-06-30T17:51:33.000Z,2024-11-04T20:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-7510-1,2023-12-27T11:00:18.000Z,2024-12-31T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5893-1,2024-09-30T20:59:57.000Z,2024-10-18T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6124-1,2024-10-11T10:57:33.000Z,2024-10-24T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6090-1,2023-10-12T23:12:10.000Z,2025-05-05T22:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-3180-PA-12,2024-10-07T09:36:11.000Z,2024-11-07T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1469-P-17,2024-10-01T10:34:27.000Z,2024-11-11T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5799-PA-2,2024-10-14T14:35:22.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5641-2,2024-09-30T10:44:32.000Z,2024-10-28T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2022-1254-PA-66,2024-09-20T00:18:17.000Z,2024-10-18T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4383-PA-3,2024-10-02T14:16:22.000Z,2024-11-03T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5172-PA-38,2024-10-03T09:35:17.000Z,2024-12-18T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1419-PA-16,2024-09-26T00:08:54.000Z,2024-11-01T23:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-6011-1,2024-10-07T09:02:05.000Z,2024-10-31T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-1393-PA-17,2024-10-07T12:55:13.000Z,2024-10-30T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2034-30,2024-09-27T09:00:25.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-32,2024-09-27T09:04:55.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5724-1,2024-09-23T12:44:28.000Z,2024-10-28T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-3223-PA-35,2024-10-16T10:33:20.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-3821-3,2023-10-11T13:59:25.000Z,2025-04-30T16:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5653-P-2,2024-10-09T14:52:23.000Z,2024-10-29T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-1186-PA-17,2024-10-07T13:06:38.000Z,2024-10-30T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4029-9,2024-06-30T01:14:33.000Z,2024-12-23T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-877-15,2024-09-19T14:18:31.000Z,2024-10-17T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6296-P-26,2024-10-04T10:37:21.000Z,2024-11-05T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6052-3,2024-10-08T13:17:28.000Z,2024-10-25T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6124-4,2024-10-11T11:12:53.000Z,2024-11-01T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4448-PA-6,2024-10-07T08:54:21.000Z,2024-10-28T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5749-1,2024-09-24T09:29:26.000Z,2024-12-31T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5222-1,2024-09-03T11:02:46.000Z,2024-10-25T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5829-1,2024-09-26T14:48:20.000Z,2024-10-23T15:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5934-1,2024-10-02T11:12:46.000Z,2024-10-28T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-445-1,2024-01-22T13:31:46.000Z,2024-12-31T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5666-1,2024-09-19T15:12:42.000Z,2024-10-28T10:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-186-1,2024-01-10T17:08:37.000Z,2024-12-31T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-379-3,2024-01-25T15:08:18.000Z,2024-12-31T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5524-PA-3,2024-10-02T22:56:48.000Z,2024-11-06T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2881-PA-12,2024-10-08T09:37:37.000Z,2024-11-15T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5680-2,2024-10-01T13:12:02.000Z,2024-10-23T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4094-PA-8,2024-10-04T09:18:30.000Z,2024-10-28T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6103-1,2024-10-10T10:03:38.000Z,2024-10-30T18:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2856-PA-8,2024-10-13T22:16:55.000Z,2024-11-04T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5392-1,2024-09-11T13:30:59.000Z,2024-10-18T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5959-1,2024-10-03T13:37:48.000Z,2024-10-25T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5922-1,2024-10-02T00:08:06.000Z,2024-12-17T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6134-2,2024-10-11T14:15:29.000Z,2024-10-17T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4292-PA-9,2024-10-14T11:17:08.000Z,2024-11-26T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-208-PA-20,2024-09-26T14:10:11.000Z,2024-10-18T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3527-PA-2,2024-06-26T08:32:04.000Z,2025-06-30T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2036-PA-11,2024-10-14T09:11:43.000Z,2024-11-04T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6121-1,2024-10-11T09:48:41.000Z,2025-06-30T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5667-1,2024-09-19T15:46:46.000Z,2024-10-19T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-2460-PA-33,2024-10-14T09:08:12.000Z,2024-11-04T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5741-1,2024-09-23T21:57:35.000Z,2024-10-17T22:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2181-PA-14,2024-10-01T15:11:56.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-1301-PA-15,2024-10-03T10:06:02.000Z,2024-10-23T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5800-PA-2,2024-10-14T22:00:50.000Z,2024-10-31T23:59:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5647-1,2024-09-19T09:55:12.000Z,2024-10-21T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-6009-PA-24,2024-10-14T20:50:25.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5970-1,2024-10-03T15:35:47.000Z,2024-10-30T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4755-1,2024-08-01T14:07:16.000Z,2024-11-12T20:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-4459-PA-30,2024-09-13T09:04:08.000Z,2024-10-17T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-2515-PA-33,2024-09-30T08:52:05.000Z,2024-10-18T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5357-PA-31,2024-10-11T09:52:08.000Z,2024-11-20T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6114-1,2024-10-10T14:20:01.000Z,2024-10-19T12:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2022-5719-PA-44,2024-10-16T08:48:16.000Z,2024-11-11T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-3217-PA-57,2024-10-14T21:31:34.000Z,2024-11-05T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3365-PA-8,2024-09-30T09:22:24.000Z,2024-10-21T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-6622-P-3,2024-08-12T08:33:38.000Z,2024-12-31T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-5929-2,2024-10-02T10:26:28.000Z,2024-10-21T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-6783-PA-2,2023-11-09T11:01:18.000Z,2024-12-31T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2036-PA-10,2024-09-30T09:06:29.000Z,2024-10-18T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-7145-PA-20,2024-10-09T00:45:08.000Z,2024-10-29T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5870-1,2024-09-30T09:37:27.000Z,2024-10-18T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5378-3,2024-10-16T13:55:25.000Z,2024-10-31T20:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5910-3,2024-10-01T13:08:40.000Z,2024-10-18T05:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-4057-PA-61,2024-10-14T09:58:11.000Z,2024-11-08T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-5716-PA-50,2024-09-27T10:58:41.000Z,2024-11-07T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-3532-PA-11,2024-10-08T11:02:45.000Z,2024-11-15T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-7421-PA-13,2024-10-15T07:52:25.000Z,2024-11-05T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5398-PA-2,2024-09-27T16:01:29.000Z,2024-10-18T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-336-2,2024-02-09T10:14:05.000Z,2024-12-06T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2633-PA-3,2024-09-16T22:02:48.000Z,2025-03-09T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5708-1,2024-09-23T09:08:34.000Z,2024-10-18T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5678-PA-2,2024-10-07T01:23:02.000Z,2024-11-01T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5714-1,2024-09-23T10:31:55.000Z,2024-10-20T19:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-1697-4,2023-05-03T11:08:20.000Z,2025-08-25T22:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3514-1,2024-06-03T15:35:13.000Z,2025-01-27T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5809-1,2024-09-26T09:34:52.000Z,2024-10-22T22:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-4659-PA-56,2024-10-15T15:35:28.000Z,2024-11-19T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6188-1,2024-10-15T13:36:29.000Z,2024-10-18T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2034-27,2024-09-27T08:48:23.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5376-2,2024-10-08T14:09:32.000Z,2024-10-18T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-5631-PA-51,2024-09-22T18:39:17.000Z,2024-10-29T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5938-1,2024-10-02T13:04:27.000Z,2024-10-21T19:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-4881-P-6,2024-09-25T22:45:14.000Z,2024-10-31T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5252-1,2024-09-04T09:47:15.000Z,2024-12-31T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3091-PA-10,2024-09-20T13:24:26.000Z,2024-10-22T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-958-1,2024-02-14T15:28:47.000Z,2024-12-31T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5034-PA-3,2024-09-27T08:55:52.000Z,2024-10-17T22:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5394-2,2024-09-11T13:53:01.000Z,2024-11-14T22:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4941-P-3,2024-09-26T21:55:05.000Z,2024-10-18T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5348-PA-2,2024-10-11T09:39:38.000Z,2024-10-31T06:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-6112-2,2024-10-10T13:52:45.000Z,2024-10-19T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-1365-PA-40,2024-10-08T09:57:16.000Z,2024-11-15T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5999-1,2024-10-04T14:48:25.000Z,2024-10-18T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-2063-PA-30,2024-10-04T09:12:01.000Z,2024-10-31T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5842-1,2024-09-27T09:50:52.000Z,2024-11-30T18:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-5172-PA-42,2024-10-03T09:53:55.000Z,2024-12-18T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3180-PA-11,2024-09-20T13:27:57.000Z,2024-10-23T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5172-PA-41,2024-10-03T09:49:43.000Z,2024-12-18T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5974-1,2024-10-03T22:33:42.000Z,2024-10-30T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-809-P-3,2024-08-29T15:47:22.000Z,2024-10-28T18:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-1397-PA-38,2024-10-01T14:57:35.000Z,2024-11-12T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5519-PA-23,2024-10-10T14:11:11.000Z,2024-11-04T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5200-PA-29,2024-09-27T15:27:22.000Z,2024-10-28T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-794-PA-16,2024-09-30T09:01:42.000Z,2024-10-18T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5810-1,2024-09-26T09:50:41.000Z,2024-10-22T15:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5454-PA-2,2024-09-26T14:18:33.000Z,2024-10-17T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5929-3,2024-10-02T10:28:01.000Z,2024-10-21T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5418-1,2024-09-12T10:32:24.000Z,2026-03-16T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5790-1,2024-09-25T11:05:22.000Z,2024-11-04T18:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-4174-P-7,2024-09-18T13:47:48.000Z,2024-10-22T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5751-1,2024-09-24T10:56:36.000Z,2024-11-08T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6099-1,2024-10-10T09:19:29.000Z,2024-10-23T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-556-PA-11,2024-10-03T10:27:24.000Z,2024-10-28T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5645-2,2024-10-04T15:43:29.000Z,2024-10-23T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-4517-PA-32,2024-09-18T13:44:40.000Z,2024-10-29T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5204-1,2024-09-02T13:44:19.000Z,2025-09-18T22:59:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-872-A-4,2024-09-19T14:23:04.000Z,2025-01-19T23:59:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-1413-PA-38,2024-10-01T21:46:10.000Z,2024-11-11T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6009-A-1,2024-10-07T01:45:45.000Z,2024-10-31T17:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4358-1,2024-07-15T13:44:15.000Z,2026-02-06T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-1165-PA-17,2024-10-04T11:04:46.000Z,2024-11-06T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5436-PA-2,2024-10-03T13:36:36.000Z,2024-11-22T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-570-1,2024-01-25T14:59:50.000Z,2024-11-11T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-4367-PA-31,2024-10-03T10:35:58.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5929-4,2024-10-02T10:29:29.000Z,2024-10-23T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4295-PA-7,2024-09-25T10:33:19.000Z,2024-10-29T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-2558-PA-64,2024-10-14T14:02:40.000Z,2024-11-01T10:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-5631-PA-52,2024-10-11T15:13:46.000Z,2024-11-13T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-3091-PA-11,2024-10-03T10:44:18.000Z,2024-11-07T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5845-1,2024-09-27T10:21:58.000Z,2024-10-24T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3115-1,2024-05-16T10:56:49.000Z,2025-12-22T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4782-P-6,2024-10-01T10:21:03.000Z,2024-11-11T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5902-1,2024-10-01T08:40:07.000Z,2024-11-22T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3091-PA-12,2024-10-03T10:49:58.000Z,2024-11-06T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5721-1,2024-09-23T11:29:11.000Z,2024-10-25T16:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-762-PA-65,2024-10-09T09:56:30.000Z,2024-11-06T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-1815-PA-65,2024-10-11T15:24:40.000Z,2024-11-14T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-28,2024-09-27T08:50:42.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3620-PA-4,2024-09-24T21:11:23.000Z,2024-10-30T23:59:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-4417-PA-34,2024-09-27T12:37:46.000Z,2024-11-07T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-2128-PA-6,2024-09-17T14:50:03.000Z,2024-10-17T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4256-PA-7,2024-10-09T10:00:20.000Z,2024-11-04T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4423-PA-7,2024-10-09T10:05:47.000Z,2024-11-04T16:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-2034-44,2024-09-27T09:58:57.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5031-PA-30,2024-09-27T12:41:18.000Z,2024-11-07T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6042-5,2024-10-08T09:41:01.000Z,2024-10-30T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6481-PA-16,2024-10-07T12:59:34.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5820-PA-2,2024-10-03T14:45:57.000Z,2024-11-05T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-4417-PA-33,2024-09-17T12:54:27.000Z,2024-10-23T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-2695-PA-11,2024-10-09T10:13:52.000Z,2024-11-04T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5963-1,2024-10-03T14:17:00.000Z,2024-10-30T14:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3111-1,2024-05-16T10:23:03.000Z,2025-04-21T22:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5940-1,2024-10-02T14:21:17.000Z,2024-10-28T18:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5787-PA-2,2024-10-09T14:45:03.000Z,2024-11-04T23:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-2034-34,2024-09-27T09:22:02.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2046-PA-6,2024-09-17T14:51:57.000Z,2024-10-20T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-1165-PA-16,2024-09-26T12:57:49.000Z,2024-10-22T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5823-A-1,2024-09-26T12:58:41.000Z,2024-10-18T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-3308-23,2023-03-30T09:35:57.000Z,2024-12-14T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-186-5,2024-01-16T13:22:04.000Z,2024-12-31T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5524-PA-2,2024-09-25T11:10:06.000Z,2024-10-22T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5091-2,2024-09-27T13:02:09.000Z,2024-10-23T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5939-1,2024-10-02T13:49:08.000Z,2024-10-28T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-42,2024-09-27T09:52:01.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6083-1,2023-10-12T14:31:26.000Z,2025-10-17T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-186-3,2024-01-16T13:13:53.000Z,2024-12-31T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5968-1,2024-10-03T15:18:24.000Z,2024-10-29T17:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-5808-2,2024-10-01T11:51:30.000Z,2024-10-19T19:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-6024-1,2024-10-07T12:39:45.000Z,2024-10-31T17:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-3961-PA-6,2024-09-27T01:42:09.000Z,2024-11-30T18:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6035-1,2024-10-07T14:45:43.000Z,2024-11-11T13:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-6733-PA-6,2024-07-08T12:47:45.000Z,2024-12-31T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4457-PA-4,2024-09-10T15:27:00.000Z,2024-10-30T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5829-PA-2,2024-10-10T10:23:35.000Z,2024-11-07T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-1694-P-3,2024-10-10T14:31:47.000Z,2024-12-31T23:59:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-6015-1,2024-10-07T09:53:32.000Z,2024-10-31T23:57:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4029-10,2024-06-30T01:34:34.000Z,2024-12-31T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5678-1,2024-09-20T10:56:53.000Z,2024-10-28T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5871-1,2024-09-30T09:42:58.000Z,2024-10-24T16:30:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2022-1254-PA-68,2024-10-10T22:11:55.000Z,2024-11-18T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6133-1,2024-10-11T13:50:48.000Z,2024-11-09T23:59:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6088-1,2024-10-09T13:17:31.000Z,2024-10-19T11:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5872-1,2024-09-30T10:05:38.000Z,2024-10-17T05:00:00+00:00,expired,Corte num sentido
+EMEL.condicionamentoTransito.COND-2024-5728-1,2024-09-23T13:11:46.000Z,2024-10-20T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5781-1,2024-09-25T09:40:50.000Z,2024-10-18T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-2818-PA-11,2024-09-27T21:52:59.000Z,2024-11-05T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-2522-PA-36,2024-09-16T10:52:29.000Z,2024-10-23T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5250-PA-29,2024-10-15T14:47:43.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5557-1,2024-09-17T10:49:53.000Z,2024-11-08T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5172-PA-37,2024-10-03T09:18:31.000Z,2024-12-18T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4864-PA-2,2024-08-28T09:54:23.000Z,2024-10-17T01:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-6155-2,2024-10-14T13:16:50.000Z,2024-10-21T01:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6137-A-1,2024-10-12T21:42:36.000Z,2024-11-14T19:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2022-1669-PA-67,2024-09-19T13:21:17.000Z,2024-10-29T16:29:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3125-PA-10,2024-09-30T10:27:51.000Z,2024-10-22T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3532-PA-9,2024-09-25T09:53:01.000Z,2024-10-31T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2022-4659-PA-54,2024-09-13T13:31:27.000Z,2024-10-21T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5229-PA-4,2024-10-01T09:47:58.000Z,2024-10-25T07:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5600-PA-2,2024-10-01T14:37:25.000Z,2024-10-25T16:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2022-2623-1,2022-04-28T08:57:52.000Z,2024-12-31T19:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-2034-33,2024-09-27T09:18:53.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1514-PA-15,2024-10-01T10:16:01.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-3242-PA-10,2024-09-19T02:35:28.000Z,2024-10-25T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5778-1,2024-09-25T09:12:49.000Z,2024-11-06T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5541-1,2024-09-17T09:15:53.000Z,2024-11-09T12:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-674-PA-41,2024-10-14T21:01:41.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5992-1,2024-10-04T13:07:23.000Z,2024-10-17T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-1254-PA-67,2024-10-01T09:02:10.000Z,2024-11-04T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4150-PA-7,2024-10-07T14:00:33.000Z,2024-10-28T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4941-PA-4,2024-09-26T22:17:07.000Z,2024-10-18T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5956-1,2024-10-03T10:43:38.000Z,2024-10-29T16:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-2797-1,2024-05-03T13:37:34.000Z,2025-05-06T22:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-7341-PA-20,2024-10-03T10:02:19.000Z,2024-10-25T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5881-1,2024-09-30T12:56:23.000Z,2024-10-25T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5962-1,2024-10-03T13:51:33.000Z,2024-10-17T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4029-11,2024-06-30T01:55:56.000Z,2024-12-20T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5410-1,2024-09-12T08:53:25.000Z,2024-11-06T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6099-5,2024-10-10T09:27:12.000Z,2024-10-30T22:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4407-7,2024-10-07T16:55:27.000Z,2024-10-31T20:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-6214-1,2024-10-16T13:58:50.000Z,2024-10-18T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5723-1,2024-09-23T12:25:08.000Z,2024-10-17T16:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-4057-PA-60,2024-10-03T14:23:43.000Z,2024-10-24T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5994-PA-25,2024-09-18T13:52:41.000Z,2024-10-21T15:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-5144-PA-4,2024-10-04T09:56:45.000Z,2024-10-28T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5412-1,2024-09-12T09:11:47.000Z,2024-11-05T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3609-4,2024-07-18T12:36:38.000Z,2025-02-16T23:59:00+00:00,expired,Corte num sentido
+EMEL.condicionamentoTransito.COND-2024-4944-1,2024-08-13T00:50:01.000Z,2024-10-31T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5494-PA-2,2024-09-27T21:45:50.000Z,2024-10-23T15:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-1297-1,2024-02-28T11:41:28.000Z,2024-12-31T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-3308-37,2024-09-23T09:49:35.000Z,2025-12-29T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-6763-P-7,2024-09-16T22:19:59.000Z,2025-03-27T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5815-PA-2,2024-10-15T09:38:09.000Z,2024-11-07T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5802-A-1,2024-09-26T00:53:06.000Z,2024-11-03T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5241-PA-3,2024-09-26T11:05:56.000Z,2024-10-21T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-946-PA-16,2024-09-20T16:06:26.000Z,2024-10-17T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5176-PA-2,2024-09-19T14:53:26.000Z,2024-10-18T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6169-1,2024-10-14T22:28:22.000Z,2024-11-15T12:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-3365-PA-9,2024-10-09T10:01:07.000Z,2024-11-05T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4967-1,2024-08-13T13:09:11.000Z,2025-04-18T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5808-1,2024-09-26T09:21:16.000Z,2024-10-21T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5645-A-1,2024-09-19T09:06:20.000Z,2024-10-23T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5805-1,2024-09-26T08:42:16.000Z,2024-10-22T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6198-2,2024-10-16T09:03:05.000Z,2024-11-26T05:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1049-PA-21,2024-10-09T10:27:21.000Z,2024-11-14T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1510-PA-14,2024-09-26T12:45:00.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5248-PA-27,2024-09-19T09:43:34.000Z,2024-10-18T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-710-1,2024-02-01T11:12:16.000Z,2025-02-05T18:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-5307-PA-3,2024-09-30T21:52:13.000Z,2024-10-24T15:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-3609-5,2024-07-18T12:39:14.000Z,2024-11-15T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-4927-PA-7,2024-09-16T20:39:22.000Z,2025-02-03T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-40,2024-09-27T09:44:50.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-558-PA-11,2024-10-03T10:30:23.000Z,2024-10-28T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5215-PA-2,2024-10-07T15:36:57.000Z,2024-11-11T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5732-1,2024-09-23T13:35:29.000Z,2024-10-28T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-835-PA-16,2024-10-07T13:47:22.000Z,2024-10-25T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-5716-PA-49,2024-09-16T11:05:14.000Z,2024-10-23T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2681-PA-11,2024-10-01T13:36:45.000Z,2024-10-23T15:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2022-3217-PA-56,2024-10-01T09:05:34.000Z,2024-10-21T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6763-PA-6,2024-06-30T17:42:40.000Z,2024-11-27T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5984-1,2024-10-04T10:07:07.000Z,2024-10-25T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6080-2,2024-10-09T10:33:55.000Z,2024-10-21T20:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-2143-1,2024-04-03T22:35:33.000Z,2024-11-08T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6132-1,2024-10-11T13:09:32.000Z,2024-11-25T23:59:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5217-PA-3,2024-09-30T10:35:47.000Z,2024-10-21T05:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1301-PA-16,2024-10-16T13:23:27.000Z,2024-11-07T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6018-A-1,2024-10-07T10:28:37.000Z,2024-10-29T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2021-5637-P-3,2023-12-21T15:27:29.000Z,2024-12-31T23:59:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-6112-1,2024-10-10T13:47:18.000Z,2024-10-18T17:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-1397-PA-37,2024-09-19T01:34:01.000Z,2024-10-28T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4684-2,2024-10-03T02:13:09.000Z,2024-10-26T19:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-4423-PA-6,2024-09-26T10:24:15.000Z,2024-10-21T15:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-4136-1,2024-07-03T21:29:21.000Z,2024-12-31T20:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4457-PA-6,2024-09-25T10:19:52.000Z,2024-10-28T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5856-1,2024-09-27T14:10:25.000Z,2024-10-25T16:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4736-1,2024-07-31T13:25:15.000Z,2024-10-20T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6056-PA-24,2024-10-11T13:33:16.000Z,2024-11-04T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5143-1,2024-08-26T13:14:36.000Z,2024-10-18T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5206-1,2024-09-02T14:06:20.000Z,2024-11-09T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1514-PA-16,2024-10-08T10:44:51.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5782-1,2024-09-25T09:49:23.000Z,2024-10-18T16:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6069-A-1,2024-10-09T00:39:25.000Z,2024-11-05T16:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-3310-PA-11,2024-10-04T10:53:58.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3933-1,2024-06-26T10:52:46.000Z,2025-03-23T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-472-PA-21,2024-10-10T22:53:32.000Z,2024-11-21T23:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4174-P-8,2024-09-26T15:44:26.000Z,2024-11-06T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6128-1,2024-10-11T11:56:31.000Z,2024-10-26T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4788-PA-5,2024-10-03T13:23:30.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5674-A-1,2024-09-20T10:11:29.000Z,2024-10-23T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-393-PA-43,2024-10-08T10:52:40.000Z,2024-11-15T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-3880-PA-32,2024-09-13T09:09:24.000Z,2024-10-17T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5787-1,2024-09-25T10:33:54.000Z,2024-10-18T22:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-6155-1,2024-10-14T13:06:09.000Z,2024-10-18T22:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6166-P-3,2024-10-16T10:36:19.000Z,2024-10-18T05:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-298-PA-2,2024-07-13T21:35:10.000Z,2025-01-28T20:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-762-PA-64,2024-09-27T21:58:25.000Z,2024-10-22T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3125-PA-11,2024-10-15T14:19:59.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5248-PA-28,2024-10-08T09:31:24.000Z,2024-11-18T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5883-1,2024-09-30T13:33:36.000Z,2024-10-25T22:59:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-4459-PA-31,2024-09-20T12:56:57.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6124-2,2024-10-11T10:59:07.000Z,2024-10-24T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2633-PA-2,2024-06-19T00:26:28.000Z,2024-11-09T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4713-1,2024-07-30T13:55:42.000Z,2024-12-30T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-5620-1,2024-09-18T11:21:05.000Z,2024-10-18T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4788-PA-6,2024-10-14T10:10:10.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-3244-1,2023-05-23T14:11:36.000Z,2025-08-31T17:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-7341-PA-21,2024-10-15T10:02:41.000Z,2024-11-11T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4354-P-2,2024-09-06T08:45:07.000Z,2024-11-29T06:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-2630-PA-2,2024-06-19T00:42:59.000Z,2024-11-09T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3180-PA-13,2024-10-10T22:34:10.000Z,2024-11-21T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5519-PA-22,2024-09-26T13:26:29.000Z,2024-10-18T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-379-2,2023-12-12T10:42:45.000Z,2024-12-31T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-6609-PA-48,2024-09-20T11:14:43.000Z,2024-10-17T15:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-31,2024-09-27T09:02:43.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-5247-PA-55,2024-10-09T10:09:45.000Z,2024-11-12T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4978-PA-2,2024-09-24T23:43:31.000Z,2024-10-25T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6198-1,2024-10-16T08:55:59.000Z,2024-10-19T04:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6052-2,2024-10-08T13:16:08.000Z,2024-10-25T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-472-PA-19,2024-09-17T09:20:06.000Z,2024-10-24T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5822-1,2024-09-26T12:57:16.000Z,2024-10-19T10:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-5431-P-2,2024-10-03T13:41:10.000Z,2024-11-22T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-6131-1,2024-10-11T12:58:47.000Z,2024-10-27T15:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-2881-PA-13,2024-10-08T09:48:26.000Z,2024-11-15T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-4459-PA-32,2024-10-08T09:52:31.000Z,2024-11-15T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-29,2024-09-27T08:57:57.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3219-1,2024-05-21T09:33:20.000Z,2025-05-24T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4599-PA-29,2024-10-01T15:19:46.000Z,2024-10-23T19:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-4929-PA-33,2024-10-11T09:32:57.000Z,2024-11-21T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5392-PA-2,2024-10-11T10:14:30.000Z,2024-11-15T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5860-1,2024-09-27T14:30:27.000Z,2024-10-25T16:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5773-PA-2,2024-10-07T02:00:15.000Z,2024-10-31T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5738-2,2024-09-24T10:40:53.000Z,2024-10-31T15:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5682-1,2024-09-20T11:26:23.000Z,2024-10-17T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5800-1,2024-09-25T23:43:43.000Z,2024-10-21T22:59:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-3054-PA-10,2024-10-08T00:14:35.000Z,2024-10-25T22:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-4517-PA-34,2024-10-16T10:27:25.000Z,2024-11-27T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5937-1,2024-10-02T12:52:09.000Z,2024-10-28T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6167-1,2024-10-14T21:51:29.000Z,2024-11-16T20:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-2031-7,2024-10-08T14:17:11.000Z,2024-10-29T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5994-PA-26,2024-09-26T15:39:56.000Z,2024-11-05T16:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-6053-1,2024-10-08T13:19:00.000Z,2024-10-21T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6053-2,2024-10-08T13:20:31.000Z,2024-10-21T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4029-8,2024-06-30T00:43:26.000Z,2024-12-03T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5846-1,2024-09-27T10:44:24.000Z,2024-10-24T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-39,2024-09-27T09:41:14.000Z,2024-11-04T18:01:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6215-1,2024-10-16T14:12:17.000Z,2024-11-30T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-2505-PA-12,2024-09-19T01:23:38.000Z,2024-10-25T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5472-P-2,2024-09-26T13:09:19.000Z,2024-10-21T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5357-PA-27,2024-09-17T23:52:37.000Z,2024-10-22T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4263-PA-2,2024-09-26T13:49:16.000Z,2024-10-29T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4599-32,2024-10-10T10:38:16.000Z,2024-10-25T19:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5953-1,2024-10-03T10:04:35.000Z,2024-10-25T22:59:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-6193-A-1,2024-10-15T21:41:36.000Z,2024-10-31T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-1365-PA-38,2024-09-13T08:31:31.000Z,2024-10-17T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5490-1,2024-09-16T10:14:56.000Z,2024-10-23T15:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-208-PA-22,2024-10-16T00:17:01.000Z,2024-11-15T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6088-PA-26,2024-10-04T09:46:07.000Z,2024-10-28T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6166-1,2024-10-14T16:54:07.000Z,2024-10-17T05:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6008-1,2024-10-07T00:56:51.000Z,2024-10-28T18:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-4595-PA-3,2024-09-25T21:50:38.000Z,2024-11-03T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4667-1,2024-07-29T11:28:08.000Z,2024-11-22T20:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-5241-PA-4,2024-10-10T14:57:05.000Z,2024-11-05T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-1403-PA-16,2024-09-26T14:26:27.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-7304-4,2024-04-08T11:00:23.000Z,2025-08-08T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-368-PA-20,2024-10-01T16:11:10.000Z,2024-11-14T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-7100-2,2024-09-13T10:15:42.000Z,2024-11-29T23:59:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-4626-PA-7,2024-10-04T10:16:08.000Z,2024-11-14T16:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-4599-PA-31,2024-10-09T09:30:43.000Z,2024-10-22T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5354-PA-24,2024-09-23T10:36:11.000Z,2024-10-25T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5604-1,2024-09-18T09:04:17.000Z,2024-10-31T06:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-4390-PA-21,2024-10-09T09:52:23.000Z,2024-10-30T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4914-PA-4,2024-09-26T11:09:35.000Z,2024-10-21T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-2627-PA-38,2024-10-07T13:02:38.000Z,2024-11-08T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6005-PA-2,2024-10-16T14:42:33.000Z,2024-10-25T15:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5780-1,2024-09-25T09:33:53.000Z,2024-10-17T20:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-1049-PA-19,2024-09-19T02:08:57.000Z,2024-10-17T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1403-PA-15,2024-09-18T01:31:43.000Z,2024-10-17T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5980-2,2024-10-04T09:33:16.000Z,2024-10-17T19:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2023-5250-PA-28,2024-10-01T15:14:57.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-4417-PA-35,2024-10-11T09:56:45.000Z,2024-11-21T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5928-2,2024-10-02T10:21:41.000Z,2024-10-18T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3029-PA-12,2024-10-09T09:44:09.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5931-2,2024-10-02T10:18:38.000Z,2024-10-21T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5965-PA-2,2024-10-14T14:06:00.000Z,2024-11-14T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5619-PA-2,2024-10-04T14:17:11.000Z,2024-10-25T22:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5465-PA-2,2024-09-26T00:02:53.000Z,2024-10-17T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5876-1,2024-09-30T10:31:50.000Z,2024-10-25T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-2627-PA-37,2024-09-20T16:11:28.000Z,2024-10-24T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5804-1,2024-09-26T01:24:13.000Z,2024-11-15T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6073-A-1,2024-10-09T01:31:09.000Z,2024-10-30T12:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-6698-PA-21,2024-09-27T15:45:36.000Z,2024-10-29T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6099-3,2024-10-10T09:23:44.000Z,2024-10-29T22:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5156-2,2024-10-02T10:45:39.000Z,2024-10-18T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1142-3,2024-10-03T00:57:09.000Z,2024-11-01T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-368-PA-19,2024-09-19T07:47:55.000Z,2024-10-30T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6042-9,2024-10-08T09:56:51.000Z,2024-11-12T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-1479-PA-35,2024-09-30T08:56:02.000Z,2024-10-18T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5859-1,2024-09-27T14:28:42.000Z,2024-10-24T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-208-PA-21,2024-10-07T10:39:42.000Z,2024-11-01T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-2460-PA-32,2024-09-30T08:44:04.000Z,2024-10-18T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2021-6360-1,2021-09-17T08:50:15.000Z,2024-12-31T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5910-2,2024-10-01T13:02:15.000Z,2024-10-18T05:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-1397-PA-39,2024-10-14T13:20:38.000Z,2024-11-26T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5875-1,2024-09-30T10:28:23.000Z,2024-10-24T16:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4881-P-5,2024-09-19T10:17:52.000Z,2024-10-17T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2034-43,2024-09-27T09:56:47.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6200-1,2024-10-16T09:07:23.000Z,2024-10-19T11:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3305-1,2024-05-23T13:31:13.000Z,2026-05-24T22:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-1402-PA-43,2024-10-03T16:06:11.000Z,2024-11-13T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-1856-3,2024-05-13T14:12:46.000Z,2024-12-31T17:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2023-5172-PA-34,2024-10-03T09:03:28.000Z,2024-12-18T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6054-1,2024-10-08T13:20:55.000Z,2024-10-19T20:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2022-3308-33,2024-05-08T10:14:01.000Z,2025-12-31T23:59:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-6013-1,2024-10-07T09:14:59.000Z,2024-10-18T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-946-PA-17,2024-10-07T13:32:51.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6150-1,2024-10-14T10:19:55.000Z,2024-10-18T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-7209-P-6,2024-06-24T11:50:50.000Z,2025-01-06T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-1820-PA-15,2024-09-27T21:39:01.000Z,2024-11-07T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2630-PA-3,2024-09-16T21:46:47.000Z,2025-03-09T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5855-1,2024-09-27T13:55:11.000Z,2024-10-24T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-4659-PA-55,2024-09-24T15:37:29.000Z,2024-11-05T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-186-9,2024-01-16T13:41:23.000Z,2024-12-31T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5770-1,2024-09-24T15:47:59.000Z,2024-10-25T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-4655-PA-54,2024-10-08T00:51:36.000Z,2024-10-30T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5905-1,2024-10-01T10:44:24.000Z,2024-11-14T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4504-PA-2,2024-09-30T15:05:48.000Z,2024-10-31T06:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-6088-PA-51,2024-09-30T10:31:47.000Z,2024-10-25T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-5598-A-1,2024-09-18T00:15:36.000Z,2024-10-18T19:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5764-1,2024-09-24T14:38:17.000Z,2024-10-17T15:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-393-PA-41,2024-09-13T08:35:14.000Z,2024-10-17T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5391-1,2024-09-11T13:23:13.000Z,2024-11-23T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2883-PA-13,2024-10-10T14:00:49.000Z,2024-11-21T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5763-1,2024-09-24T14:17:09.000Z,2024-10-31T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2022-1100-PA-66,2024-09-30T10:55:01.000Z,2024-10-24T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5763-2,2024-09-24T14:22:53.000Z,2024-10-31T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-3961-PA-5,2024-09-24T14:50:55.000Z,2024-11-30T18:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6199-1,2024-10-16T08:58:18.000Z,2024-10-18T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-3809-1,2024-06-15T22:22:17.000Z,2025-06-18T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5489-1,2024-09-16T10:14:34.000Z,2024-10-19T11:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5740-1,2024-09-23T21:44:02.000Z,2024-10-23T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-3190-PA-36,2024-09-19T07:51:13.000Z,2024-10-29T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5903-2,2024-10-04T13:00:44.000Z,2024-10-17T22:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2021-2459-P-2,2021-07-06T15:16:23.000Z,2026-07-20T22:59:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2022-4542-PA-54,2024-10-08T11:05:36.000Z,2024-10-28T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2022-5247-PA-54,2024-09-19T23:35:17.000Z,2024-10-28T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-923-PA-14,2024-10-07T09:34:06.000Z,2024-11-11T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2818-PA-10,2024-09-16T11:08:56.000Z,2024-10-21T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2579-PA-10,2024-09-30T10:23:30.000Z,2024-10-18T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5910-1,2024-10-01T12:56:52.000Z,2024-10-18T05:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5722-1,2024-09-23T12:06:00.000Z,2024-10-18T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5667-2,2024-09-23T13:08:10.000Z,2024-10-19T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5942-1,2024-10-02T15:01:27.000Z,2024-10-28T18:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5820-1,2024-09-26T11:47:44.000Z,2024-10-21T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6055-A-1,2024-10-08T13:31:18.000Z,2024-10-31T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4246-PA-5,2024-10-03T22:52:14.000Z,2024-10-31T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5876-PA-2,2024-10-14T14:24:52.000Z,2024-11-11T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1265-PA-15,2024-10-02T09:30:35.000Z,2024-10-21T22:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5642-1,2024-09-19T08:45:30.000Z,2024-10-17T15:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5702-1,2024-09-22T16:10:10.000Z,2024-12-31T23:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1265-PA-14,2024-10-02T09:13:34.000Z,2024-11-05T23:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-1049-PA-22,2024-10-09T10:29:14.000Z,2024-11-28T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5400-PA-3,2024-10-03T13:03:45.000Z,2024-10-28T23:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5484-2,2024-10-03T14:04:59.000Z,2024-10-30T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5925-1,2024-10-02T09:41:33.000Z,2024-10-26T05:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-24,2024-09-27T08:37:41.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5815-1,2024-09-26T10:43:27.000Z,2024-10-23T15:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-6194-1,2024-10-15T21:47:19.000Z,2024-10-20T20:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-794-PA-17,2024-10-14T09:15:10.000Z,2024-11-04T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4029-4,2024-06-29T20:25:00.000Z,2024-12-18T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6032-A-1,2024-10-07T14:13:25.000Z,2024-10-28T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4604-1,2024-07-25T10:10:15.000Z,2024-10-18T17:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-3576-PA-8,2024-10-01T09:30:25.000Z,2024-12-31T23:59:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-6516-P-2,2024-05-27T09:56:14.000Z,2024-12-31T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-5727-2,2024-09-27T10:45:26.000Z,2024-10-17T12:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-3488-P-5,2024-10-09T13:46:48.000Z,2024-10-31T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2234-PA-15,2024-10-16T09:27:23.000Z,2024-11-25T16:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-923-PA-15,2024-10-07T12:56:51.000Z,2024-10-25T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6109-1,2024-10-10T13:10:00.000Z,2024-10-17T22:59:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-4929-PA-31,2024-09-18T14:33:29.000Z,2024-10-23T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4029-5,2024-06-29T21:12:24.000Z,2024-12-30T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-3617-PA-2,2024-10-15T09:44:38.000Z,2024-11-16T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4029-7,2024-06-30T00:19:43.000Z,2024-12-16T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5983-3,2024-10-04T10:04:24.000Z,2024-10-25T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5690-1,2024-09-20T13:50:08.000Z,2024-11-15T20:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-4979-PA-30,2024-10-10T10:27:05.000Z,2024-11-15T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-4929-PA-32,2024-09-27T14:03:45.000Z,2024-11-07T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5271-9,2024-10-01T15:21:40.000Z,2024-10-19T15:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-5524-PA-4,2024-10-15T10:17:35.000Z,2024-11-20T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-4579-PA-55,2024-10-04T14:35:22.000Z,2024-10-25T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6368-P-20,2024-10-09T14:13:06.000Z,2024-10-30T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6162-1,2024-10-14T14:19:48.000Z,2024-10-17T21:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-3223-PA-34,2024-10-02T08:55:24.000Z,2024-10-25T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2022-4216-PA-53,2024-10-07T08:52:12.000Z,2024-10-29T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5765-1,2024-09-24T14:45:40.000Z,2024-10-20T19:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5704-1,2024-09-22T17:44:49.000Z,2024-10-18T16:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-4823-2,2024-09-12T14:22:59.000Z,2024-11-14T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2084-PA-12,2024-09-30T10:39:39.000Z,2024-10-21T06:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4503-PA-2,2024-09-30T15:11:20.000Z,2024-10-31T06:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5378-2,2024-09-20T09:48:13.000Z,2025-02-04T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-5200-PA-30,2024-10-14T11:01:21.000Z,2024-11-11T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-3143-PA-9,2024-10-08T10:01:52.000Z,2024-10-28T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5412-2,2024-09-12T09:31:33.000Z,2024-11-26T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6010-1,2024-10-07T08:49:04.000Z,2024-10-31T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-6021-1,2024-10-07T10:57:12.000Z,2024-10-21T14:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5965-1,2024-10-03T14:37:08.000Z,2024-10-30T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5928-4,2024-10-02T10:24:35.000Z,2024-10-21T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-2558-PA-63,2024-09-26T10:47:52.000Z,2024-10-18T09:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-674-PA-40,2024-09-27T15:36:31.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4903-PA-4,2024-10-07T15:02:01.000Z,2024-11-08T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5139-PA-4,2024-09-23T09:54:31.000Z,2024-10-22T15:30:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-5436-5,2024-10-11T13:40:39.000Z,2024-11-22T23:59:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-5753-1,2024-09-24T11:10:00.000Z,2024-11-08T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-6002-PA-27,2024-09-27T15:58:10.000Z,2024-10-24T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-6186-PA-26,2024-09-25T10:38:20.000Z,2024-10-31T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-6042-2,2024-10-08T09:13:35.000Z,2024-10-24T16:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-2032-PA-38,2024-09-25T22:52:08.000Z,2024-11-01T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4977-PA-2,2024-10-02T22:36:49.000Z,2024-11-01T18:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5935-1,2024-10-02T11:34:35.000Z,2024-10-30T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5982-1,2024-10-04T09:57:27.000Z,2024-10-18T21:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5211-PA-3,2024-09-25T10:46:12.000Z,2024-10-21T16:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-5700-P-2,2024-10-09T21:56:15.000Z,2024-10-17T15:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5848-1,2024-09-27T12:47:41.000Z,2024-10-22T05:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6042-4,2024-10-08T09:38:11.000Z,2024-10-28T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4457-PA-7,2024-10-11T15:17:24.000Z,2024-11-12T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-322-PA-17,2024-09-26T00:15:02.000Z,2024-10-28T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2624-1,2024-04-24T02:33:22.000Z,2025-02-06T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5774-1,2024-09-25T08:29:47.000Z,2024-10-21T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2034-35,2024-09-27T09:25:29.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2536-P-2,2024-07-29T10:46:55.000Z,2024-11-27T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-2034-41,2024-09-27T09:49:04.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6042-7,2024-10-08T09:49:57.000Z,2024-11-11T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5923-1,2024-10-02T08:54:38.000Z,2024-10-17T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5651-1,2024-09-19T11:10:32.000Z,2024-10-18T20:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-186-4,2024-01-16T13:18:14.000Z,2024-12-31T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5371-1,2024-09-10T15:53:08.000Z,2024-10-17T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2023-5354-PA-25,2024-10-08T13:26:56.000Z,2024-11-08T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5594-PA-3,2024-10-10T10:18:54.000Z,2024-10-31T23:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4346-P-7,2024-10-04T09:49:23.000Z,2024-10-28T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2023-3880-PA-33,2024-09-20T15:34:12.000Z,2024-10-31T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4755-2,2024-08-07T13:25:30.000Z,2024-11-12T20:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2023-5305-PA-24,2024-09-30T13:10:09.000Z,2024-10-21T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6308-PA-24,2024-10-16T09:47:47.000Z,2024-11-07T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5393-PA-3,2024-10-11T10:09:20.000Z,2024-10-31T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-3406-PA-32,2024-10-14T10:27:08.000Z,2024-11-04T23:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2021-6332-PA-75,2024-09-17T13:29:04.000Z,2024-10-18T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5598-PA-2,2024-09-20T02:45:17.000Z,2024-10-31T20:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5229-PA-5,2024-10-15T15:50:55.000Z,2024-11-08T08:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-3131-A-2,2024-10-15T21:29:11.000Z,2024-10-25T21:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5954-A-1,2024-10-03T10:23:34.000Z,2024-10-23T12:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-1265-PA-16,2024-10-16T09:23:33.000Z,2024-11-19T23:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5820-PA-3,2024-10-14T13:25:31.000Z,2024-11-19T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2505-PA-14,2024-10-14T23:26:58.000Z,2024-11-25T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5307-PA-4,2024-10-10T14:53:32.000Z,2024-11-08T16:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-4399-PA-2,2024-09-26T15:06:52.000Z,2024-10-29T23:59:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5030-1,2024-08-19T11:14:34.000Z,2024-10-31T18:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2024-5660-1,2024-09-19T14:09:30.000Z,2024-10-18T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-523-1,2023-01-26T10:42:22.000Z,2025-01-31T23:59:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-5891-1,2024-09-30T15:36:59.000Z,2024-12-07T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5754-1,2024-09-24T11:15:07.000Z,2024-11-08T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-2881-PA-10,2024-09-13T08:40:56.000Z,2024-10-17T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5103-PA-3,2024-09-18T13:40:43.000Z,2024-10-17T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5843-1,2024-09-27T09:58:30.000Z,2024-10-19T11:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5712-PA-2,2024-10-11T15:10:14.000Z,2024-10-31T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4029-1,2024-06-28T13:12:55.000Z,2024-12-26T17:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-3532-PA-10,2024-09-25T11:00:42.000Z,2024-10-17T15:30:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-186-2,2024-01-16T12:20:04.000Z,2024-12-31T19:00:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-4599-19,2024-09-12T11:05:11.000Z,2024-10-23T17:00:00+00:00,expired,Passeio
+EMEL.condicionamentoTransito.COND-2024-2034-25,2024-09-27T08:41:41.000Z,2024-11-04T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6176-PA-27,2024-10-09T14:28:18.000Z,2024-11-14T16:30:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-731-1,2024-02-02T10:14:58.000Z,2024-12-31T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5701-A-1,2024-09-21T21:43:51.000Z,2024-11-15T18:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-5031-PA-29,2024-09-17T12:50:49.000Z,2024-10-23T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-3658-1,2023-06-09T13:56:35.000Z,2025-02-28T18:00:00+00:00,expired,Mantém perfil de via
+EMEL.condicionamentoTransito.COND-2024-5816-1,2024-09-26T11:01:00.000Z,2026-07-02T22:59:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-3882-A-2,2024-09-26T13:06:17.000Z,2024-10-25T17:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2022-2963-PA-10,2024-06-07T13:24:09.000Z,2024-12-31T20:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6106-1,2024-10-10T10:52:45.000Z,2025-02-14T18:00:00+00:00,expired,Cortes temporários
+EMEL.condicionamentoTransito.COND-2024-4292-PA-8,2024-10-01T08:52:38.000Z,2024-11-12T16:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2024-5900-1,2024-10-01T00:47:44.000Z,2024-10-18T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6198-4,2024-10-16T09:14:38.000Z,2024-11-09T05:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2023-6308-PA-23,2024-10-04T10:31:45.000Z,2024-10-25T15:30:00+00:00,expired,Estacionamento
+EMEL.condicionamentoTransito.COND-2023-393-PA-42,2024-09-20T12:53:39.000Z,2024-10-31T16:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-4782-P-5,2024-09-20T00:27:02.000Z,2024-10-25T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-6005-1,2024-10-04T16:00:25.000Z,2024-10-18T15:00:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5154-P-6,2024-09-30T10:55:20.000Z,2024-10-18T17:00:00+00:00,expired,Corte total
+EMEL.condicionamentoTransito.COND-2023-1413-PA-37,2024-09-19T01:28:39.000Z,2024-10-25T15:30:00+00:00,expired,Estreitamento de via
+EMEL.condicionamentoTransito.COND-2024-5139-PA-5,2024-10-16T10:11:31.000Z,2024-11-11T16:30:00+00:00,expired,Mantém perfil de via

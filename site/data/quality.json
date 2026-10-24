@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-10-24T22:15:01.234090Z",
+  "source_url": "https://coiapp2.cm-lisboa.pt/file/datahub/950792bf-6f72-4bb2-b725-652c1619175a",
+  "catalog_url": "https://dados.cm-lisboa.pt/pt_BR/dataset/condicionamentos-de-transito",
+  "license": "CC-BY-4.0",
+  "attribution": "Câmara Municipal de Lisboa — Lisboa Aberta",
+  "sha256": "4c0613b83089d14a9b3fb0f64ed1d96fcf50f88028793b4248f3147c9b4733f1",
+  "encoding": "utf-8",
+  "accepted": 854,
+  "rejected": 0,
+  "duplicates": 2560,
+  "conflicting_ids": 0,
+  "coverage": "Lisboa municipality only",
+  "source_updated_at": null,
+  "current_state_known": false,
+  "status": "historical_or_unverified",
+  "warning": "Retrieval time is not source update time. Date envelope does not imply continuous closure."
+}

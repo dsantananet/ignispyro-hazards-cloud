@@ -1,0 +1,12 @@
+# IGNISPYRO Hazards Cloud
+
+Free public-source collection and reproducible R quality reports. This repository contains only new public collector code, CC BY 4.0 Lisbon road data and study outputs. No NAS keys, private portal source, user accounts or paid calls.
+
+Run `python -m unittest -v`, `python collect.py`, `Rscript analyse.R`.
+Open `site/article.html` and `site/reports/index.html`.
+
+Hourly scheduled collection is a refresh attempt, not a real-time service guarantee. GitHub may delay scheduled runs or disable inactive schedules. A failed collection does not publish empty normal-state data. No source here confirms national road closures. Lisbon data remain historical/unverified until their original update cadence is established.
+
+Source attribution: Câmara Municipal de Lisboa / Lisboa Aberta, CC BY 4.0, links and SHA-256 in `site/data/quality.json`. Collector transformations: geometry validation, deduplication, temporal classification. Original data licence applies separately from code.
+
+Waze/Google browser scraping is not implemented. Waze official partner access and OpenWeb Ninja require source-use rights. OpenWeb Ninja's advertised free 100 calls/month is insufficient for national five-minute refresh. No commercial API is enabled.

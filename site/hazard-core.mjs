@@ -49,3 +49,17 @@ export function nearby(features,point,radius=1000,now=Date.now()){
  if(!coordinates(...point)||!Number.isFinite(radius)||radius<100||radius>5000)throw Error('invalid_screening');
  return features.filter(f=>sourceFresh(f,now)&&['fire','flood','landslide','road_incident','obstruction'].includes(f.properties.kind)&&['em curso','em despacho','em resolucao'].includes(fold(f.properties.state).trim())).map(f=>({feature:f,distance_m:Math.round(distanceM(point,f.geometry.coordinates))})).filter(x=>x.distance_m<=radius).sort((a,b)=>a.distance_m-b.distance_m);
 }
+
+// Local planar distance is only used for exploratory screening over short road segments.
+export function segmentDistanceM(point,a,b){
+ if(![point,a,b].every(p=>Array.isArray(p)&&coordinates(...p)))return Infinity;
+ const sy=111195,sx=sy*Math.cos(point[1]*Math.PI/180);
+ const ax=(a[0]-point[0])*sx,ay=(a[1]-point[1])*sy,bx=(b[0]-point[0])*sx,by=(b[1]-point[1])*sy;
+ const dx=bx-ax,dy=by-ay,t=Math.max(0,Math.min(1,(-(ax*dx+ay*dy))/(dx*dx+dy*dy||1)));
+ return Math.hypot(ax+t*dx,ay+t*dy);
+}
+export function roadScreening(road,features,radius=500,now=Date.now()){
+ if(!Array.isArray(road)||road.length<2||road.length>10000||!Number.isFinite(radius)||radius<100||radius>2000)return [];
+ const active=features.filter(f=>sourceFresh(f,now)&&['fire','flood','landslide','road_incident','obstruction'].includes(f.properties.kind)&&['em curso','em despacho','em resolucao'].includes(fold(f.properties.state).trim()));
+ return active.map(feature=>({feature,distance_m:Math.round(Math.min(...road.slice(1).map((b,i)=>segmentDistanceM(feature.geometry.coordinates,road[i],b))))})).filter(x=>x.distance_m<=radius);
+}

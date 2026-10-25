@@ -1,0 +1,7 @@
+{
+	"devDependencies": {
+		"esbuild": "^0.28.2",
+		"@mapbox/vector-tile": "^3.0.0",
+		"pbf": "^5.1.2"
+	}
+}

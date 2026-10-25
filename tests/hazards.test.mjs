@@ -12,3 +12,19 @@ test('source failures preserve age and cannot masquerade as verified zero',async
 test('invalid coordinates, truncated feed and encoding losses are handled explicitly',()=>{assert.throws(()=>normalize('sifor',{type:'FeatureCollection',features:[],exceededTransferLimit:true},at));assert.equal(clean('Sert\ufffd'),'Designação indisponível na origem');assert.equal(parseLocation('40.21, -8.43').lng,-8.43);assert.equal(parseLocation('40,'),null);assert.equal(parseLocation('91, -8'),null);});
 test('denied geolocation retains manual alternatives and never fabricates a position',()=>{let applied=0,message='';requestLocation({getCurrentPosition(_yes,no){no({code:1});}},()=>applied++,s=>{message=s;});assert.equal(applied,0);assert.match(message,/coordenadas/);requestLocation(null,()=>applied++,s=>{message=s;});assert.equal(applied,0);assert.match(message,/zona/);});
 test('calendar rollovers and nested ArcGIS truncation flags are rejected',()=>{assert.equal(instant('2026-02-30T12:00:00'),null);assert.equal(instant('2026-10-25T25:00:00Z'),null);assert.equal(instant('2026-10-25T13:00:00'),at.replace('Z','.000Z'));assert.throws(()=>normalize('sifor',{type:'FeatureCollection',features:[],properties:{exceededTransferLimit:true}},at));});
+
+
+test('road segments show only nearby current events, never stale hazards or earthquake damage',async()=>{
+ const {roadScreening,segmentDistanceM}=await import('../site/hazard-core.mjs');
+ const now=Date.now(),event={geometry:{type:'Point',coordinates:[-8.43,40.2105]},properties:{kind:'fire',source:'sifor',state:'Em Curso',fetched_at:new Date(now).toISOString(),updated_at:new Date(now).toISOString()}};
+ const road=[[-8.44,40.21],[-8.42,40.21]];
+ assert.ok(segmentDistanceM(event.geometry.coordinates,...road)<60);
+ assert.equal(roadScreening(road,[event],500,now).length,1);
+ assert.equal(roadScreening(road,[{...event,properties:{...event.properties,updated_at:new Date(now-7200000).toISOString()}}],500,now).length,0);
+ assert.equal(roadScreening(road,[{...event,properties:{...event.properties,kind:'earthquake'}}],500,now).length,0);
+ assert.equal(roadScreening([[-9,39],[-9,39.01]],[event],500,now).length,0);
+});
+test('traffic and hazards share one map with external provider links only',async()=>{
+ const {readFile}=await import('node:fs/promises');const html=await readFile(new URL('../index.html',import.meta.url),'utf8');
+ assert.equal((html.match(/id="hazards-map"/g)||[]).length,1);assert.ok(!html.includes('<iframe'));assert.ok(html.includes('id="load-roads"'));
+});

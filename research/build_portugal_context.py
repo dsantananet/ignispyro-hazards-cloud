@@ -7,6 +7,7 @@ import rasterio
 from rasterio.features import shapes
 from shapely.geometry import shape,mapping
 from shapely.ops import unary_union
+from shapely.validation import make_valid
 root=Path('.');folder=root/'site/data';folder.mkdir(exist_ok=True)
 countries=json.loads((root/'.runtime/nasa/countries.geojson').read_text(encoding='utf-8'))
 country=next(shape(f['geometry']) for f in countries['features'] if f['properties'].get('ADM0_A3')=='PRT')
@@ -30,6 +31,17 @@ def rounded(v):
  if isinstance(v,dict):return {k:rounded(x) for k,x in v.items()}
  return v
 features=rounded(features)
+def polygon_parts(g):
+ if g.geom_type=='Polygon':return [g]
+ if hasattr(g,'geoms'):return [p for x in g.geoms for p in polygon_parts(x)]
+ return []
+for f in features:
+ g=shape(f['geometry'])
+ if not g.is_valid:g=unary_union(polygon_parts(make_valid(g)))
+ assert g.is_valid and not g.is_empty and g.geom_type in ['Polygon','MultiPolygon']
+ f['geometry']=mapping(g)
+meta['geometry_processing']='coordinates rounded to5decimals; invalid rings repaired; zero-area remnants omitted'
+
 (folder/'portugal-landslide-susceptibility.geojson').write_text(json.dumps(dict(type='FeatureCollection',features=features,metadata=meta),ensure_ascii=False,separators=(',',':')),encoding='utf-8')
 nuts=json.loads((root/'.runtime/modules/nuts2021.geojson').read_text(encoding='utf-8'));data=json.loads((root/'.runtime/modules/erosion.json').read_text(encoding='utf-8'));assert data['id']==['freq','levels','clc18','unit','geo','time'] and data['size'][:4]==[1,1,1,1] and data['size'][-1]==1
 index=data['dimension']['geo']['category']['index'];values=data.get('value',{});flags=data.get('status',{});out=[]

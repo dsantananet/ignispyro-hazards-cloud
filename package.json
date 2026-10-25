@@ -1,7 +1,13 @@
 {
-	"devDependencies": {
-		"esbuild": "^0.28.2",
-		"@mapbox/vector-tile": "^3.0.0",
-		"pbf": "^5.1.2"
-	}
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "@mapbox/vector-tile": "^3.0.0",
+    "pbf": "^5.1.2"
+  },
+  "name": "ignispyro-hazards-cloud",
+  "private": true,
+  "scripts": {
+    "build": "node build-map.mjs && node build-integrated.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
 }

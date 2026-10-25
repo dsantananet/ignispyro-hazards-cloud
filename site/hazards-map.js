@@ -142,11 +142,16 @@ async function installProducts({ map: map2, L: L2, render: render2 }) {
       status.textContent = "A consultar\u2026";
       try {
         layer = await loader();
+        let failed = false;
+        layer.on?.("loading", () => {
+          failed = false;
+        });
         layer.on?.("tileerror", () => {
+          failed = true;
           status.textContent = "Falha ao obter imagens da fonte; cobertura n\xE3o confirmada.";
         });
         layer.on?.("load", () => {
-          status.textContent = "Imagens recebidas da fonte; consultar legenda e escala.";
+          if (!failed) status.textContent = "Imagens recebidas da fonte; consultar legenda e escala.";
         });
         if (c.checked) layer.addTo(map2);
         status.textContent = layer._url ? "Pedido enviado \xE0 fonte; atualiza\xE7\xE3o sujeita a disponibilidade." : "Dados recebidos; consultar legenda e escala.";
@@ -199,14 +204,14 @@ async function installProducts({ map: map2, L: L2, render: render2 }) {
         image = L2.imageOverlay(location.pathname.startsWith("/module-study/") || location.pathname.startsWith("/roads-study/") ? "/api/landslides/preview" : new URL("./data/gee-pilot-preview.png", import.meta.url).href, b, { opacity: 0.75 }).addTo(map2);
         outline = L2.rectangle(b, { color: "#bc8adb", weight: 2, fillOpacity: 0 }).bindPopup("\xC1rea de estudo GEE, n\xE3o mancha de deslizamento.").addTo(map2);
         map2.fitBounds(b, { maxZoom: 15 });
-        note.textContent = `GEE ${j.generated_at} \xB7 ${j.area_km2.toFixed(2)} km\xB2 \xB7 cobertura ${(j.statistics.coverage_fraction * 100).toFixed(0)}% \xB7 \xE1rea candidata ${j.statistics.candidate_area_m2} m\xB2. Altera\xE7\xE3o de probabilidade de solo exposto e declive, n\xE3o severidade de inc\xEAndio nem probabilidade de deslizamento. Chuva regional: ${j.statistics.rainfall_context.comparison.complete ? "s\xE9rie completa" : "s\xE9rie incompleta; total n\xE3o estimado"}.`;
+        note.textContent = `GEE ${j.generated_at} \xB7 ${j.area_km2.toFixed(2)} km\xB2 \xB7 per\xEDodo ${j.request.comparison.join(" \u2192 ")} \xB7 cobertura ${(j.statistics.coverage_fraction * 100).toFixed(0)}% \xB7 \xE1rea candidata ${j.statistics.candidate_area_m2} m\xB2. Altera\xE7\xE3o de probabilidade de solo exposto e declive, n\xE3o severidade de inc\xEAndio nem probabilidade de deslizamento. Chuva regional: ${j.statistics.rainfall_context.comparison.complete ? "s\xE9rie completa" : "s\xE9rie incompleta; total n\xE3o estimado"}.`;
       } catch {
         note.textContent = "Resultado GEE indispon\xEDvel ou sem cobertura suficiente.";
       }
     };
   }
   if (["seismic", "roads-incidents"].includes(module)) {
-    toggle("Perigosidade s\xEDsmica ESHM20 \xB7 PGA \xB7 10% em 50 anos", async () => L2.tileLayer.wms("https://efehr-services.ethz.ch/hazard/ows/", { layers: "hmap1846", format: "image/png", transparent: true, version: "1.1.1", crs: L2.CRS.EPSG4326, opacity: 0.55, attribution: "EFEHR ESHM20 \xB7 CC BY 4.0 \xB7 doi:10.12686/a15" }), module === "seismic");
+    toggle("Perigosidade s\xEDsmica ESHM20 \xB7 PGA \xB7 10% em 50 anos", async () => L2.tileLayer.wms("https://efehrmaps.ethz.ch/cgi-bin/mapserv?MAP=/var/www/mapfile/sharehazard.01.map", { layers: "hmap1846", format: "image/png", transparent: true, version: "1.1.1", crs: L2.CRS.EPSG4326, opacity: 0.55, attribution: "EFEHR ESHM20 \xB7 CC BY 4.0 \xB7 doi:10.12686/a15" }), module === "seismic");
     panel.append(el("p", "ESHM20 \xE9 perigosidade de longo prazo para a condi\xE7\xE3o de solo do modelo, n\xE3o previs\xE3o do pr\xF3ximo sismo nem confirma\xE7\xE3o de danos nas vias. A cobertura e a escala seguem a fonte EFEHR."));
   }
   render2();

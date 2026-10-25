@@ -1,0 +1,26 @@
+nuts_id,name,reference_year,soil_loss_t_ha_year
+PT111,Alto Minho,2016,7.8
+PT112,Cávado,2016,5
+PT119,Ave,2016,5.1
+PT11A,Área Metropolitana do Porto,2016,3.8
+PT16J,Beiras e Serra da Estrela,2016,2.5
+PT170,Área Metropolitana de Lisboa,2016,1.7
+PT181,Alentejo Litoral,2016,0.7
+PT184,Baixo Alentejo,2016,1.5
+PT11B,Alto Tâmega,2016,3.7
+PT11C,Tâmega e Sousa,2016,7.8
+PT16E,Região de Coimbra,2016,1.3
+PT16F,Região de Leiria,2016,1
+PT16G,Viseu Dão Lafões,2016,2.7
+PT11D,Douro,2016,5.1
+PT11E,Terras de Trás-os-Montes,2016,2.7
+PT150,Algarve,2016,1.9
+PT16B,Oeste,2016,3.3
+PT16D,Região de Aveiro,2016,1.3
+PT16H,Beira Baixa,2016,0.9
+PT16I,Médio Tejo,2016,0.8
+PT185,Lezíria do Tejo,2016,0.7
+PT186,Alto Alentejo,2016,1
+PT187,Alentejo Central,2016,0.9
+PT200,Região Autónoma dos Açores,2016,
+PT300,Região Autónoma da Madeira,2016,

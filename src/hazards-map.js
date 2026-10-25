@@ -1,3 +1,4 @@
+import {installProducts} from './products.mjs';
 import {fetchRoadVectors} from './roads-vector.mjs';
 import {fetchHazards} from '../site/hazard-sources.mjs';
 import {sourceFresh,nearby,coordinates,roadScreening} from '../site/hazard-core.mjs';
@@ -54,5 +55,6 @@ $('load-roads').onclick=async()=>{
  try{roadWays=await fetchRoadVectors({south:box.getSouth(),west:box.getWest(),north:box.getNorth(),east:box.getEast()});roadQueryAt=new Date().toISOString();renderRoads();if(!roadWays.length)$('roads-status').textContent='Sem geometria viária devolvida para esta zona; circulação desconhecida.';
  }catch{roadWays=[];roadLayer.clearLayers();$('roads-status').textContent='Rede viária indisponível ou resposta incompleta. Não foi possível avaliar os troços; circulação desconhecida.';}finally{$('load-roads').disabled=false;}
 };
+await installProducts({map,L,render});
 try{const r=await fetch(new URL('./data/hazards.geojson',import.meta.url),{cache:'no-store',signal:AbortSignal.timeout(10000)});if(r.ok){const d=await r.json();if(d.type==='FeatureCollection'&&Array.isArray(d.features)&&d.features.length<=6000){dataset=d;render();}}}catch{}
 await refresh();setInterval(()=>{if(!document.hidden)refresh();},300000);

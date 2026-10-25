@@ -57,6 +57,159 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 */
 
+// src/products.mjs
+var apps = {
+  floods: { name: "Floods", description: "Cheias e inunda\xE7\xF5es. Ocorr\xEAncias reportadas aqui; cen\xE1rios e valida\xE7\xE3o hidr\xE1ulica na aplica\xE7\xE3o Floods existente.", kinds: ["flood"] },
+  seismic: { name: "Seismic", description: "Sismos observados e perigosidade s\xEDsmica ESHM20 s\xE3o produtos distintos. Magnitude n\xE3o demonstra danos numa estrada.", kinds: ["earthquake"] },
+  landslides: { name: "Landslides", description: "Suscetibilidade NASA a movimentos de vertente, eros\xE3o regional Eurostat e piloto experimental GEE. Nenhum destes produtos confirma uma derrocada atual.", kinds: ["landslide"] },
+  "extreme-weather": { name: "Extreme Weather", description: "Avisos IPMA em validade: neve, calor, frio, vento e precipita\xE7\xE3o. Os pontos representam \xE1reas oficiais de aviso, n\xE3o perigos localizados nessa coordenada.", kinds: ["weather"] },
+  "roads-incidents": { name: "Roads & Incidents", description: "Servi\xE7o de tr\xE2nsito Waze/IP e consulta conjunta dos hazards nas vias. Google Maps dispon\xEDvel por liga\xE7\xE3o, sem API paga.", kinds: ["fire", "flood", "landslide", "road_incident", "obstruction", "weather", "earthquake"] }
+};
+var selectedModule = (search) => Object.hasOwn(apps, new URLSearchParams(search).get("module")) ? new URLSearchParams(search).get("module") : "roads-incidents";
+var el = (tag, content) => {
+  const x = document.createElement(tag);
+  x.textContent = content;
+  return x;
+};
+async function installProducts({ map: map2, L: L2, render: render2 }) {
+  const module = selectedModule(location.search), app = apps[module], roads = module === "roads-incidents";
+  document.title = "IGNISPYRO \xB7 " + app.name;
+  document.querySelector(".brand").textContent = "IGNISPYRO HAZARDS \xB7 " + app.name.toUpperCase();
+  document.querySelector("#overview-description").textContent = roads ? "Tr\xE2nsito em direto e consulta dos poss\xEDveis efeitos dos hazards na rede vi\xE1ria." : "Mapa espec\xEDfico do m\xF3dulo, com produtos, datas e escalas distintos. Suscetibilidade e perigosidade n\xE3o s\xE3o ocorr\xEAncias confirmadas.";
+  document.querySelector('a[href="#events"]').textContent = roads ? "Mapa de tr\xE2nsito" : "Mapa " + app.name;
+  document.querySelector("#hazards-map").setAttribute("aria-label", "Mapa " + app.name + " e fontes de contexto");
+  document.querySelector("#event-legend").hidden = !roads;
+  document.querySelector("#app-title").textContent = app.name;
+  document.querySelector("#app-description").textContent = app.description;
+  document.querySelector("#map-title").textContent = roads ? "Tr\xE2nsito e condicionamentos nas estradas" : app.name + " \xB7 mapa e fontes";
+  for (const c of document.querySelectorAll("[data-kind]")) {
+    c.checked = app.kinds.includes(c.dataset.kind) && (module !== "roads-incidents" || !["weather", "earthquake"].includes(c.dataset.kind));
+    c.closest("label").hidden = !app.kinds.includes(c.dataset.kind);
+  }
+  for (const id of ["road-controls", "road-screening", "roads-status", "traffic-service", "road-explanation"]) document.getElementById(id).hidden = !roads;
+  const frame = document.querySelector("#traffic"), canvas = document.querySelector("#hazards-map");
+  function mode(traffic) {
+    frame.hidden = !traffic;
+    canvas.hidden = traffic;
+    if (!traffic) map2.invalidateSize();
+    document.querySelector("#traffic-source-note").textContent = traffic ? "Tr\xE2nsito em direto na fonte original. Para consultar os perigos na rede vi\xE1ria, escolhe Hazards nas vias." : "Hazards e poss\xEDveis condicionamentos nas vias. Velocidades/congestionamento Waze n\xE3o s\xE3o copiados para esta cartografia.";
+  }
+  document.querySelector("#show-traffic").onclick = () => mode(true);
+  document.querySelector("#show-hazards").onclick = () => mode(false);
+  window.addEventListener("ignispyro-show-traffic", () => mode(true));
+  if (roads) {
+    document.querySelector("#waze").click();
+    mode(true);
+  } else {
+    frame.hidden = true;
+    canvas.hidden = false;
+  }
+  const panel = document.querySelector("#context-products");
+  if (module === "floods") {
+    const a = el("a", "Abrir Floods \xB7 modelo, barragens e valida\xE7\xE3o de Coimbra \u2197");
+    a.href = "https://dsantananet.github.io/ignispyro-floods/";
+    a.target = "_blank";
+    a.rel = "noopener";
+    panel.append(a, el("p", "Sem mancha hidr\xE1ulica atual validada nesta camada; uma ocorr\xEAncia pontual n\xE3o representa a \xE1rea inundada."));
+  }
+  async function geo(path) {
+    const r = await fetch(new URL("./data/" + path, import.meta.url), { signal: AbortSignal.timeout(2e4) });
+    if (!r.ok) throw Error("source");
+    const j = await r.json();
+    if (j.type !== "FeatureCollection" || !Array.isArray(j.features) || j.features.length > 1e3) throw Error("shape");
+    return j;
+  }
+  function toggle(label, loader, initial = false) {
+    const row = el("label", ""), c = document.createElement("input"), status = el("small", "");
+    c.type = "checkbox";
+    row.append(c, document.createTextNode(" " + label + " "), status);
+    panel.append(row, document.createElement("br"));
+    let layer, pending = false;
+    c.onchange = async () => {
+      if (pending) return;
+      if (!c.checked) {
+        if (layer) map2.removeLayer(layer);
+        return;
+      }
+      if (layer) {
+        layer.addTo(map2);
+        return;
+      }
+      pending = true;
+      status.textContent = "A consultar\u2026";
+      try {
+        layer = await loader();
+        layer.on?.("tileerror", () => {
+          status.textContent = "Falha ao obter imagens da fonte; cobertura n\xE3o confirmada.";
+        });
+        layer.on?.("load", () => {
+          status.textContent = "Imagens recebidas da fonte; consultar legenda e escala.";
+        });
+        if (c.checked) layer.addTo(map2);
+        status.textContent = layer._url ? "Pedido enviado \xE0 fonte; atualiza\xE7\xE3o sujeita a disponibilidade." : "Dados recebidos; consultar legenda e escala.";
+      } catch {
+        c.checked = false;
+        status.textContent = "Fonte indispon\xEDvel. Sem classifica\xE7\xE3o substituta.";
+      } finally {
+        pending = false;
+      }
+    };
+    if (initial) {
+      c.checked = true;
+      c.onchange();
+    }
+    return c;
+  }
+  if (["landslides", "roads-incidents"].includes(module)) {
+    toggle("Suscetibilidade NASA \xB7 cerca de 1 km \xB7 contexto est\xE1tico", async () => {
+      const j = await geo("portugal-landslide-susceptibility.geojson");
+      return L2.geoJSON(j, { style: (f) => ({ color: "#75685e", weight: 0.3, fillColor: ["", "#cadde9", "#9cc8d9", "#ecd16e", "#e69850", "#cb635b"][f.properties.susceptibility_class], fillOpacity: 0.5 }), onEachFeature(f, l) {
+        const p = f.properties;
+        l.bindPopup(el("p", `NASA GSFC \xB7 suscetibilidade ${["", "muito baixa", "baixa", "moderada", "alta", "muito alta"][p.susceptibility_class]}. Modelo est\xE1tico de cerca de 1 km; n\xE3o confirma instabilidade atual ou corte. Stanley & Kirschbaum 2017, doi:10.1007/s11069-017-2757-y. Recorte Natural Earth aproximado, n\xE3o CAOP.`));
+      } });
+    }, module === "landslides");
+    toggle("Eros\xE3o h\xEDdrica regional \xB7 Eurostat/RUSLE \xB7 refer\xEAncia 2016", async () => {
+      const j = await geo("portugal-regional-erosion.geojson");
+      return L2.geoJSON(j, { style: (f) => {
+        const v = f.properties.soil_loss_t_ha_year;
+        return { color: "#674d36", weight: 1, fillOpacity: 0.5, fillColor: v == null ? "#89969e" : v > 5 ? "#a84232" : v > 2 ? "#e6a454" : v > 1 ? "#e7d28b" : "#e5e1c8" };
+      }, onEachFeature(f, l) {
+        const p = f.properties;
+        l.bindPopup(el("p", `${p.name} \xB7 ${p.soil_loss_t_ha_year ?? "sem dados"} t/ha/ano, m\xE9dia modelada de 2016. N\xE3o \xE9 eros\xE3o medida em cada parcela nem previs\xE3o atual. Fonte Eurostat aei_pr_soiler / JRC; \xA9 EuroGeographics para os limites administrativos NUTS2021, utiliza\xE7\xE3o n\xE3o comercial.`));
+      } });
+    });
+    panel.append(el("p", "NASA: azul claro \u2192 vermelho, suscetibilidade muito baixa \u2192 muito alta; n\xE3o \xE9 risco atual. Eros\xE3o: m\xE9dias regionais \u22641, 1\u20132, 2\u20135 e >5 t/ha/ano, apenas intervalos de apresenta\xE7\xE3o. A\xE7ores/Madeira podem ter dados em falta."));
+    const pilot = el("button", "Ver piloto GEE existente");
+    pilot.type = "button";
+    const note = el("p", "");
+    panel.append(pilot, note);
+    let image, outline;
+    pilot.onclick = async () => {
+      try {
+        const r = await fetch(location.pathname.startsWith("/module-study/") || location.pathname.startsWith("/roads-study/") ? "/api/landslides/latest" : new URL("./data/gee-pilot.json", import.meta.url));
+        if (!r.ok) throw Error();
+        const j = await r.json();
+        if (j.product !== "experimental_erosion_screening" || j.synthetic !== false || j.calibrated !== false || j.statistics.coverage_fraction < 0.8) throw Error();
+        const [w, s, e, n] = j.request.bbox, b = [[s, w], [n, e]];
+        if (image) map2.removeLayer(image);
+        if (outline) map2.removeLayer(outline);
+        image = L2.imageOverlay(location.pathname.startsWith("/module-study/") || location.pathname.startsWith("/roads-study/") ? "/api/landslides/preview" : new URL("./data/gee-pilot-preview.png", import.meta.url).href, b, { opacity: 0.75 }).addTo(map2);
+        outline = L2.rectangle(b, { color: "#bc8adb", weight: 2, fillOpacity: 0 }).bindPopup("\xC1rea de estudo GEE, n\xE3o mancha de deslizamento.").addTo(map2);
+        map2.fitBounds(b, { maxZoom: 15 });
+        note.textContent = `GEE ${j.generated_at} \xB7 ${j.area_km2.toFixed(2)} km\xB2 \xB7 cobertura ${(j.statistics.coverage_fraction * 100).toFixed(0)}% \xB7 \xE1rea candidata ${j.statistics.candidate_area_m2} m\xB2. Altera\xE7\xE3o de probabilidade de solo exposto e declive, n\xE3o severidade de inc\xEAndio nem probabilidade de deslizamento. Chuva regional: ${j.statistics.rainfall_context.comparison.complete ? "s\xE9rie completa" : "s\xE9rie incompleta; total n\xE3o estimado"}.`;
+      } catch {
+        note.textContent = "Resultado GEE indispon\xEDvel ou sem cobertura suficiente.";
+      }
+    };
+  }
+  if (["seismic", "roads-incidents"].includes(module)) {
+    toggle("Perigosidade s\xEDsmica ESHM20 \xB7 PGA \xB7 10% em 50 anos", async () => L2.tileLayer.wms("https://efehr-services.ethz.ch/hazard/ows/", { layers: "hmap1846", format: "image/png", transparent: true, version: "1.1.1", crs: L2.CRS.EPSG4326, opacity: 0.55, attribution: "EFEHR ESHM20 \xB7 CC BY 4.0 \xB7 doi:10.12686/a15" }), module === "seismic");
+    panel.append(el("p", "ESHM20 \xE9 perigosidade de longo prazo para a condi\xE7\xE3o de solo do modelo, n\xE3o previs\xE3o do pr\xF3ximo sismo nem confirma\xE7\xE3o de danos nas vias. A cobertura e a escala seguem a fonte EFEHR."));
+  }
+  render2();
+  return module;
+}
+
 // node_modules/.pnpm/@mapbox+point-geometry@1.1.0/node_modules/@mapbox/point-geometry/index.js
 function Point(x, y) {
   this.x = x;
@@ -1341,6 +1494,7 @@ $("load-roads").onclick = async () => {
     $("load-roads").disabled = false;
   }
 };
+await installProducts({ map, L, render });
 try {
   const r = await fetch(new URL("./data/hazards.geojson", import.meta.url), { cache: "no-store", signal: AbortSignal.timeout(1e4) });
   if (r.ok) {

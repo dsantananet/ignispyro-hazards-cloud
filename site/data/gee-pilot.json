@@ -1,0 +1,110 @@
+{
+  "schema_version": "1.0",
+  "product": "experimental_erosion_screening",
+  "status": "experimental",
+  "synthetic": false,
+  "generated_at": "2026-10-25T09:12:44.717692Z",
+  "model_version": "land-cover-screening-0.1.1",
+  "execution": "github-actions+google-earth-engine",
+  "provenance": {
+    "github_run_id": "40179685497",
+    "github_sha": "c7aa76c659b7d2b55ee818e024f1f77155499479",
+    "github_repository": "dsantananet/ignispyro-landslides"
+  },
+  "earthengine_project": "ignispyro-simulator",
+  "assets": [
+    {
+      "path": "screening.tif",
+      "sha256": "faf0b325cef46a615d97c357e5185e00f5aed0c9d51884d0bcae59c53a400791",
+      "bytes": 14572
+    },
+    {
+      "path": "bare-change-preview.png",
+      "sha256": "fca604684b6522f1979090d4459fea47a78bb8d75c465deb49fc819a3d229e81",
+      "bytes": 27942
+    }
+  ],
+  "request": {
+    "bbox": [
+      -8.15,
+      40.15,
+      -8.14,
+      40.16
+    ],
+    "baseline": [
+      "2025-07-13",
+      "2025-10-11"
+    ],
+    "comparison": [
+      "2026-07-13",
+      "2026-10-11"
+    ],
+    "bare_delta": 0.2,
+    "slope_degrees": 15
+  },
+  "area_km2": 0.9471348320042964,
+  "image_counts": {
+    "baseline": 20,
+    "comparison": 21
+  },
+  "statistics": {
+    "candidate_area_m2": 0,
+    "coverage_fraction": 1,
+    "rainfall_context": {
+      "baseline": {
+        "images": 90,
+        "rainfall_sum_mm": 57.31148918239652,
+        "expected_days": 90,
+        "complete": true
+      },
+      "comparison": {
+        "images": 80,
+        "rainfall_sum_mm": null,
+        "expected_days": 90,
+        "complete": false,
+        "available_days_sum_mm": 129.77733619967267
+      }
+    },
+    "values": {
+      "bare_probability_delta": 0.0007969313046196072,
+      "baseline_bare": 0.03199151254406177,
+      "comparison_bare": 0.03278844384868142,
+      "slope_degrees": 20.366906712555238
+    }
+  },
+  "official_warning": false,
+  "landslide_probability": null,
+  "erosion_tonnes_per_ha": null,
+  "calibrated": false,
+  "threshold_provenance": "user-configurable screening defaults, not validated hazard thresholds",
+  "datasets": [
+    {
+      "id": "GOOGLE/DYNAMICWORLD/V1",
+      "license": "CC-BY-4.0",
+      "attribution": "This dataset is produced for the Dynamic World Project by Google in partnership with National Geographic Society and the World Resources Institute. Contains modified Copernicus Sentinel data [2015-present]."
+    },
+    {
+      "id": "COPERNICUS/DEM/GLO30_2024_1",
+      "license": "Copernicus DEM licence; DSM includes vegetation/buildings",
+      "attribution": "© DLR e.V. 2010-2014 and © Airbus Defence and Space GmbH 2014-2018 provided under COPERNICUS by the European Union and ESA; all rights reserved."
+    },
+    {
+      "id": "UCSB-CHG/CHIRPS/DAILY",
+      "license": "public-domain",
+      "attribution": "Funk et al.2015, UCSB Climate Hazards Center"
+    }
+  ],
+  "limitations": [
+    "Land-cover change and slope are conditioning factors, not a calibrated probability of slope failure",
+    "No soil erodibility, soil depth, pore pressure, geotechnical validation or exposure model",
+    "Compare seasonally equivalent periods; class probabilities are uncertain",
+    "Coverage below80percent blocks interpretation; zero candidate area does not prove absence of risk",
+    "No RUSLE soil-loss estimate: rainfall erosivity/K/LS/C/P not calibrated",
+    "CHIRPS rainfall is regional context at5566m within6km of AOI centre, not parcel rainfall or erosivity"
+  ],
+  "bibliography": [
+    "Brown et al.2022 Dynamic World doi:10.1038/s41597-022-01307-4",
+    "Panagos et al.2015 Cover-management factor doi:10.1016/j.landusepol.2015.05.021",
+    "https://cnt.dgterritorio.gov.pt/ifd4"
+  ]
+}

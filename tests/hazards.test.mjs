@@ -24,7 +24,16 @@ test('road segments show only nearby current events, never stale hazards or eart
  assert.equal(roadScreening(road,[{...event,properties:{...event.properties,kind:'earthquake'}}],500,now).length,0);
  assert.equal(roadScreening([[-9,39],[-9,39.01]],[event],500,now).length,0);
 });
-test('traffic and hazards share one map with external provider links only',async()=>{
+test('traffic provider and hazard view remain explicit distinct modes',async()=>{
  const {readFile}=await import('node:fs/promises');const html=await readFile(new URL('../index.html',import.meta.url),'utf8');
- assert.equal((html.match(/id="hazards-map"/g)||[]).length,1);assert.ok(!html.includes('<iframe'));assert.ok(html.includes('id="load-roads"'));
+ assert.equal((html.match(/id="hazards-map"/g)||[]).length,1);assert.ok(html.includes('id="traffic"'));assert.ok(html.includes('id="load-roads"'));
+});
+
+test('module selection is bounded and Portugal context keeps static scales and missing data',async()=>{
+ const {selectedModule}=await import('../src/products.mjs');const {readFile}=await import('node:fs/promises');
+ for(const id of ['floods','seismic','landslides','extreme-weather','roads-incidents'])assert.equal(selectedModule('?module='+id),id);
+ assert.equal(selectedModule('?module=admin'),'roads-incidents');
+ const lands=JSON.parse(await readFile('site/data/portugal-landslide-susceptibility.geojson','utf8'));
+ assert.ok(lands.features.length>5);assert.ok(lands.features.every(f=>f.properties.current_warning===false&&f.properties.resolution_m_approx===1000));
+ const er=JSON.parse(await readFile('site/data/portugal-regional-erosion.geojson','utf8'));assert.equal(er.features.length,25);assert.equal(er.features.filter(f=>f.properties.soil_loss_t_ha_year!=null).length,23);assert.ok(er.features.every(f=>f.properties.reference_year===2016&&f.properties.road_closure_inference===false));
 });

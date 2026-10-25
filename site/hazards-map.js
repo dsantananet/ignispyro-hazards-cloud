@@ -91,6 +91,9 @@ async function installProducts({ map: map2, L: L2, render: render2 }) {
   function mode(traffic) {
     frame.hidden = !traffic;
     canvas.hidden = traffic;
+    for (const id of ["context-products", "road-explanation", "roads-status", "road-screening", "event-legend"]) document.getElementById(id).hidden = traffic;
+    document.querySelector(".layer-filters").hidden = traffic;
+    document.querySelector("#load-roads").hidden = traffic;
     if (!traffic) map2.invalidateSize();
     document.querySelector("#traffic-source-note").textContent = traffic ? "Tr\xE2nsito em direto na fonte original. Para consultar os perigos na rede vi\xE1ria, escolhe Hazards nas vias." : "Hazards e poss\xEDveis condicionamentos nas vias. Velocidades/congestionamento Waze n\xE3o s\xE3o copiados para esta cartografia.";
   }

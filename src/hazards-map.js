@@ -6,6 +6,7 @@ import {requestLocation} from '../site/geolocation.mjs';
 const $=id=>document.getElementById(id),names={fire:'Incêndio',flood:'Inundação / cheia',landslide:'Movimento de massa',road_incident:'Ocorrência rodoviária',obstruction:'Obstrução',weather:'Aviso meteorológico',earthquake:'Sismo observado',other:'Outra ocorrência'};
 const colors={fire:'#f27830',flood:'#36a7ff',landslide:'#c59a68',road_incident:'#df668a',obstruction:'#ddad50',weather:'#f5bb3a',earthquake:'#7bbfff',other:'#a9a1ce'};
 const map=L.map('hazards-map',{scrollWheelZoom:false}).fitBounds([[36.8,-9.6],[42.2,-6.1]]);
+map.attributionControl.addAttribution('<a href="https://openfreemap.org/">OpenFreeMap</a> · ©OpenMapTiles · <a href="https://www.openstreetmap.org/copyright">ODbL</a>');
 const requestedZone=new URLSearchParams(location.search).get('zone');if(zones[requestedZone]){const z=zones[requestedZone];if(z.bounds)map.fitBounds(z.bounds);else map.setView([z.lat,z.lng],z.zoom);}
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:19,attribution:'© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(map);
 const points=L.layerGroup().addTo(map);let dataset={features:[],metadata:{sources:[]}},selection,selectedMarker,rangeCircle,accuracyCircle,busy=false;

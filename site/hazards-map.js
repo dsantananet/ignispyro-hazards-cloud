@@ -1148,6 +1148,7 @@ var $ = (id) => document.getElementById(id);
 var names = { fire: "Inc\xEAndio", flood: "Inunda\xE7\xE3o / cheia", landslide: "Movimento de massa", road_incident: "Ocorr\xEAncia rodovi\xE1ria", obstruction: "Obstru\xE7\xE3o", weather: "Aviso meteorol\xF3gico", earthquake: "Sismo observado", other: "Outra ocorr\xEAncia" };
 var colors = { fire: "#f27830", flood: "#36a7ff", landslide: "#c59a68", road_incident: "#df668a", obstruction: "#ddad50", weather: "#f5bb3a", earthquake: "#7bbfff", other: "#a9a1ce" };
 var map = L.map("hazards-map", { scrollWheelZoom: false }).fitBounds([[36.8, -9.6], [42.2, -6.1]]);
+map.attributionControl.addAttribution('<a href="https://openfreemap.org/">OpenFreeMap</a> \xB7 \xA9OpenMapTiles \xB7 <a href="https://www.openstreetmap.org/copyright">ODbL</a>');
 var requestedZone = new URLSearchParams(location.search).get("zone");
 if (zones[requestedZone]) {
   const z = zones[requestedZone];

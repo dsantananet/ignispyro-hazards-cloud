@@ -2,4 +2,4 @@ kind,source,records,fresh,stale_or_unknown
 landslide,sifor,1,0,1
 fire,sifor,4,0,4
 road_incident,sifor,5,0,5
-earthquake,emsc,122,122,0
+earthquake,emsc,128,128,0

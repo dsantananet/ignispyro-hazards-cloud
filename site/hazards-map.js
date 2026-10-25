@@ -1382,6 +1382,7 @@ function render() {
     const point = L.circleMarker([lat, lon], { radius: p.kind === "fire" ? 8 : 6, color: "#102733", weight: 1, fillColor: color, fillOpacity: 0.9 });
     const node = document.createElement("div");
     node.append(text("strong", names[p.kind]), text("p", p.title), text("p", `${p.area}${p.parish ? " \xB7 " + p.parish : ""} \xB7 ${p.state}`), text("p", `${fresh ? "Dentro da janela de atualidade adotada" : "Dados antigos ou atualidade por confirmar"}. Publica\xE7\xE3o: ${date(p.updated_at)}. Recolha: ${date(p.fetched_at)}.`));
+    if (p.kind === "weather") node.append(text("p", p.description || p.title), text("p", `Validade: ${date(p.valid_from)} \u2014 ${date(p.valid_until)}`));
     if (p.kind === "earthquake") node.append(text("p", `Magnitude ${p.magnitude ?? "n\xE3o fornecida"} \xB7 observado em ${date(p.observed_at)}. N\xE3o demonstra dano ou corte de estrada.`));
     if (p.geometry_role === "area_representative") node.append(text("p", "Ponto representativo da \xE1rea de aviso IPMA. N\xE3o \xE9 a geometria da \xE1rea afetada nem um perigo localizado nesta coordenada."));
     if (p.source_time_original) node.append(text("p", "In\xEDcio indicado pela fonte: " + p.source_time_original + " (formato original)."));

@@ -20,8 +20,14 @@ jobs:
           python-version: '3.12'
       - name: Validate collector
         run: python -m unittest -v
+      - name: Validate hazard interpretation
+        run: node --test tests/*.test.mjs
       - name: Collect licensed source
         run: python collect.py
+      - name: Collect hazard snapshots and source quality
+        run: node collect-hazards.mjs
+      - name: Build NAS-compatible view
+        run: node build-integrated.mjs
       - name: Install base R
         run: sudo apt-get update -qq && sudo apt-get install -y --no-install-recommends r-base-core
       - name: Produce report

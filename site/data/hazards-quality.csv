@@ -1,4 +1,4 @@
 source,status,records,rejected,encoding_loss,fresh,stale_or_unknown
-sifor,ok,32,0,0,32,0
-ipma,stale,1,0,0,0,1
-emsc,ok,112,0,0,112,0
+sifor,ok,21,0,0,21,0
+ipma,ok,0,0,0,0,0
+emsc,ok,106,0,0,106,0

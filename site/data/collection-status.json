@@ -1,6 +1,1 @@
-{
-  "attempted_at": "2026-11-02T06:26:08.822386+00:00",
-  "status": "retrieval_failed",
-  "error_type": "URLError",
-  "snapshot_preserved": true
-}
+{"attempted_at": "2026-11-02T17:13:41.527231Z", "status": "retrieved", "snapshot_preserved": false}

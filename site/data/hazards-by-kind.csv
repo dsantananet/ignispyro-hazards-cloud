@@ -1,6 +1,6 @@
 kind,source,records,fresh,stale_or_unknown
 landslide,sifor,1,1,0
-fire,sifor,14,14,0
-road_incident,sifor,13,13,0
-obstruction,sifor,1,1,0
-earthquake,emsc,87,87,0
+fire,sifor,10,10,0
+road_incident,sifor,2,2,0
+weather,ipma,1,1,0
+earthquake,emsc,82,82,0

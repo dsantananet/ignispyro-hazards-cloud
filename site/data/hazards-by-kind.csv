@@ -1,8 +1,8 @@
 kind,source,records,fresh,stale_or_unknown
-landslide,sifor,1,1,0
-fire,sifor,22,22,0
-road_incident,sifor,18,18,0
-obstruction,sifor,9,9,0
+landslide,sifor,2,2,0
+fire,sifor,11,11,0
+road_incident,sifor,9,9,0
+obstruction,sifor,7,7,0
 flood,sifor,1,1,0
-weather,ipma,15,15,0
-earthquake,emsc,81,81,0
+weather,ipma,28,28,0
+earthquake,emsc,83,83,0

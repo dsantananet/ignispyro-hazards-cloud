@@ -1,5 +1,4 @@
 kind,source,records,fresh,stale_or_unknown
-landslide,sifor,2,2,0
-road_incident,sifor,8,8,0
-obstruction,sifor,1,1,0
-earthquake,emsc,77,77,0
+landslide,sifor,1,1,0
+road_incident,sifor,1,1,0
+earthquake,emsc,76,76,0

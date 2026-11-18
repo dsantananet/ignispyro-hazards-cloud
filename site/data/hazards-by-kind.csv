@@ -1,4 +1,7 @@
 kind,source,records,fresh,stale_or_unknown
-landslide,sifor,1,1,0
-weather,ipma,4,4,0
-earthquake,emsc,70,70,0
+landslide,sifor,3,3,0
+obstruction,sifor,9,9,0
+flood,sifor,6,6,0
+road_incident,sifor,9,9,0
+weather,ipma,18,18,0
+earthquake,emsc,73,73,0
